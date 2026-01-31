@@ -86,10 +86,9 @@ At Ford Audio-Video, I supported the installation and integration of large-scale
 
   <!-- Images row -->
   <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-    <img src="images/Neckog1.jpeg" alt="Neckog Project 1" style="width:25%; border-radius:5px;">
-    <img src="images/Neckog2.jpeg" alt="Neckog Project 2" style="width:25%; border-radius:5px;">
-    <img src="images/Neckog3.png" alt="Neckog Project 3" style="width:25%; border-radius:5px;">
-    <img src="images/Neckog4.png" alt="Neckog Project 4" style="width:25%; border-radius:5px;">
+    <img src="images/Neckog1.jpeg" alt="Neckog Project 1" style="width:33%; border-radius:5px;">
+    <img src="images/Neckog2.jpeg" alt="Neckog Project 2" style="width:33%; border-radius:5px;">
+    <img src="images/Neckog5.png" alt="Neckog Project 3" style="width:33%; border-radius:5px;">
   </div>
   <p style="text-align:center; font-size:0.9em; color:gray; margin-top:5px;">
     Prototypes and assemblies designed and fabricated during my internship at Neckog Industries
