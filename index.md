@@ -1,9 +1,5 @@
 # Charlie Kley
 
-Mechanical Engineering Student with a Math Minor at Duke University - Expected Graduation May 2027
-
----
-
 ## About Me
 
 I'm a current junior at Duke university studying Mechanical Engineering with a math minor. I love turning ideas into physical protoypes using CAD and 3D printing. I'm passionate about robotics, aerospace, and really most projects that merge hands-on design and testing with analytical problem solving.
@@ -23,7 +19,7 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
   <!-- Text column -->
   <div style="flex: 1; padding-right: 20px;">
-    **Wildfire Burn Severity Predictor | Spring 2025**
+    <strong>Wildfire Burn Severity Predictor | Spring 2025<strong>
     <p>
       I applied machine learning techniques, using a Random Forest classifier in Python, to predict wildfire burn severity based solely on Landsat 8 imagery and SRTM elevation data. 
       The model achieved 70% accuracy, demonstrating the potential for data-driven wildfire management strategies.
@@ -51,7 +47,7 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
   <!-- Text column -->
   <div style="flex: 1; padding-left: 20px;">
-    **Children’s Toy Space Maze | Spring 2024**
+    <strong>Children’s Toy Space Maze | Spring 2024<strong>
     <p>
       For this project, I designed an engaging space-themed toy suitable for a Happy Meal toy in SolidWorks. 
       I designed pieces for injection molding and calculated manufacturing costs to ensure the project stayed within budget constraints.
@@ -65,7 +61,7 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
   <!-- Text column -->
   <div style="flex: 1; padding-right: 20px;">
-    **Seeing Sounds Engineering Design Project | Fall 2023**
+    <strong>Seeing Sounds Engineering Design Project | Fall 2023<strong>
     <p>
       I collaborated with a team to create a system that visualizes sound for children attending the Shakori Hills Music Festival. 
       We combined multiple inputs to produce engaging feedback, presented our design to the client and at a showcase, and received positive responses from actual users.
@@ -82,11 +78,11 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
 ## Work Experience
 
-**Ford Audio-Video — Project Engineer Intern | Summer 2025**
+<strong>Ford Audio-Video — Project Engineer Intern | Summer 2025<strong>
 
 At Ford AV, I supported the installation and integration of large-scale AV systems for multi-million-dollar facilities. I assisted in commissioning and troubleshooting professional AV hardware at venues including the University of Texas Football Stadium. I collaborated closely with engineers and contractors to ensure seamless deployment of complex audio-visual solutions across multiple high-profile projects.
 
-**Neckog Industries — Mechanical Engineering Intern | Summer 2024**
+<strong>Neckog Industries — Mechanical Engineering Intern | Summer 2024<strong>
 
 During my internship at Neckog Industries, I designed and prototyped over ten components of a desktop injection molding device, including gear pumps, valves, sheet metal housings, and stepper motor assemblies using Fusion360. I ensured strict tolerances for critical parts like motor shafts and pump gears, filed a provisional patent for a three-inlet manifold-gear pump with technical drawings, and sourced materials from local manufacturers to support late-stage prototyping and testing.
 
