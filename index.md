@@ -68,16 +68,16 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
     <img src="images/SS1.jpeg" alt="Seeing Sounds Project" style="width:100%; border-radius:5px; margin-bottom:10px;">
     <img src="images/SS2.jpeg" alt="Seeing Sounds Project" style="width:100%; border-radius:5px;">
   </div>
-</div>
+
 
 
 ## Work Experience
 
-**Ford Audio-Video — Project Engineer Intern | Summer 2025**
+**Ford Audio-Video — Project Engineer Intern  (Summer 2025)**
 
-At Ford Audio-Video, I supported the installation and integration of large-scale AV systems for multi-million-dollar facilities. I assisted in commissioning and troubleshooting professional AV hardware at venues including the University of Texas Football Stadium. I collaborated closely with engineers and contractors to ensure seamless deployment of complex audio-visual solutions across multiple high-profile projects.
+At Ford AV, I supported the installation and integration of large-scale AV systems for multi-million-dollar facilities. I assisted in commissioning and troubleshooting professional AV hardware at venues including the University of Texas Football Stadium. I collaborated closely with engineers and contractors to ensure seamless deployment of complex audio-visual solutions across multiple high-profile projects.
 
-**Neckog Industries — Mechanical Engineering Intern | Summer 2024**
+**Neckog Industries — Mechanical Engineering Intern  (Summer 2024)**
 
 During my internship at Neckog Industries, I designed and prototyped over ten components of a desktop injection molding device, including gear pumps, valves, sheet metal housings, and stepper motor assemblies using Fusion360. I ensured strict tolerances for critical parts like motor shafts and pump gears, filed a provisional patent for a three-inlet manifold-gear pump with technical drawings, and sourced materials from local manufacturers to support late-stage prototyping and testing.
   
