@@ -85,11 +85,11 @@ At Ford Audio-Video, I supported the installation and integration of large-scale
   </p>
 
   <!-- Images row -->
-  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-    <img src="images/Neckog1.jpeg" alt="Neckog Project 1" style="width:33%; border-radius:5px;">
-    <img src="images/Neckog2.jpeg" alt="Neckog Project 2" style="width:33%; border-radius:5px;">
-    <img src="images/Neckog5.png" alt="Neckog Project 3" style="width:33%; border-radius:5px;">
-  </div>
+ <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+  <img src="images/Neckog1.jpeg" alt="Neckog Project 1" style="width:100%; border-radius:5px;">
+  <img src="images/Neckog2.jpeg" alt="Neckog Project 2" style="width:100%; border-radius:5px;">
+  <img src="images/Neckog5.png" alt="Neckog Project 3" style="width:100%; border-radius:5px;">
+</div>
   <p style="text-align:center; font-size:0.9em; color:gray; margin-top:5px;">
     Prototypes and assemblies designed and fabricated during my internship at Neckog Industries
   </p>
@@ -99,6 +99,20 @@ At Ford Audio-Video, I supported the installation and integration of large-scale
 ## Extracurricular Activities
 
 At Duke, I participate in several engineering and community organizations. With the **Duke Aerospace Engineering Club**, I machined precision rocket motor components and manufactured solid propellant for a successful 30,000 ft launch. Through **Project Tadpole**, I've modified more than 15 children’s toys to improve accessibility for children with disabilities. I also help organize adaptive outdoor activities through **Duke Adaptive Explorers**, including hiking, kayaking, and sports.
+
+<div>
+  <!-- Images row -->
+  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+    <img src="images/Aero1.JPG" alt="Aero Project 1" style="width:100%; border-radius:5px;">
+    <img src="images/Aero2.jpg" alt="Aero Project 2" style="width:100%; border-radius:5px;">
+    <img src="images/Aero3.png" alt="Aero Project 3" style="width:100%; border-radius:5px;">
+  </div>
+
+  <!-- Centered caption -->
+  <p style="text-align:center; font-size:0.9em; color:gray; margin-top:5px;">
+    Aero motor assembly & Static Hot Fire Images
+  </p>
+<div>
 
 ## Education
 
