@@ -18,14 +18,55 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
 ## Projects
 
-**Wildfire Burn Severity Predictor | Spring 2025**  
-I applied machine learning techniques, using a Random Forest classifier in Python, to predict wildfire burn severity based solely on Landsat 8 imagery and SRTM elevation data. The model achieved 70% accuracy, demonstrating the potential for data-driven wildfire management strategies.
 
-**Children’s Toy Space Maze | Spring 2024**  
-For this project, I designed an engaging space-themed toy suitable for a Happy Meal toy in SolidWorks. I designed pieces for injection molding and calculated manufacturing costs to ensure the project stayed within budget constraints.
+<!-- Wildfire Burn Severity Predictor -->
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <div style="flex: 1; padding-right: 20px;">
+    <h3>Wildfire Burn Severity Predictor | Spring 2025</h3>
+    <p>
+      I applied machine learning techniques, using a Random Forest classifier in Python, to predict wildfire burn severity based solely on Landsat 8 imagery and SRTM elevation data. 
+      The model achieved 70% accuracy, demonstrating the potential for data-driven wildfire management strategies.
+    </p>
+  </div>
+  <div style="flex: 1;">
+    <img src="images/Fire1.png" alt="Wildfire Burn Severity Predictor" style="width:100%; border-radius:5px; margin-bottom:10px;">
+    <img src="images/Fire2.png" alt="Wildfire Burn Severity Predictor" style="width:100%; border-radius:5px; margin-bottom:10px;">
+    <img src="images/Fire3.png" alt="Wildfire Burn Severity Predictor" style="width:100%; border-radius:5px; margin-bottom:10px;">
+    <img src="images/Fire4.png" alt="Wildfire Burn Severity Predictor" style="width:100%; border-radius:5px;">
+  </div>
+</div>
 
-**Seeing Sounds Engineering Design Project | Fall 2023**  
-I collaborated with a team to create a system that visualizes sound for children attending the Shakori Hills Music Festival. We combined multiple inputs to produce engaging feedback, presented our design to the client and at a showcase, and received positive responses from actual users.
+
+<!-- Children’s Toy Space Maze -->
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <div style="flex: 1;">
+    <img src="images/Space1.jpg" alt="Children's Toy Space Maze" style="width:100%; border-radius:5px; margin-bottom:10px;">
+    <img src="images/Space2.jpeg" alt="Children's Toy Space Maze" style="width:100%; border-radius:5px; margin-bottom:10px;">
+    <img src="images/Space3.jpeg" alt="Children's Toy Space Maze" style="width:100%; border-radius:5px;">
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+    <h3>Children’s Toy Space Maze | Spring 2024</h3>
+    <p>
+      For this project, I designed an engaging space-themed toy suitable for a Happy Meal toy in SolidWorks. 
+      I designed pieces for injection molding and calculated manufacturing costs to ensure the project stayed within budget constraints.
+    </p>
+  </div>
+</div>
+
+<!-- Seeing Sounds -->
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <div style="flex: 1; padding-right: 20px;">
+    <h3>Seeing Sounds Engineering Design Project | Fall 2023</h3>
+    <p>
+      I collaborated with a team to create a system that visualizes sound for children attending the Shakori Hills Music Festival. 
+      We combined multiple inputs to produce engaging feedback, presented our design to the client and at a showcase, and received positive responses from actual users.
+    </p>
+  </div>
+  <div style="flex: 1;">
+    <img src="images/SS1.jpeg" alt="Seeing Sounds Project" style="width:100%; border-radius:5px; margin-bottom:10px;">
+    <img src="images/SS2.jpeg" alt="Seeing Sounds Project" style="width:100%; border-radius:5px;">
+  </div>
+</div>
 
 
 ## Work Experience
