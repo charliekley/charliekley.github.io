@@ -79,7 +79,7 @@ At Ford Audio-Video, I supported the installation and integration of large-scale
 <!-- Neckog Industries -->
 <div style="margin-bottom: 40px;">
 
-  <h3>Neckog Industries — Mechanical Engineering Intern | Summer 2024</h3>
+  **Neckog Industries — Mechanical Engineering Intern | Summer 2024**
   <p>
     During my internship at Neckog Industries, I designed and prototyped over ten components of a desktop injection molding device, including gear pumps, valves, sheet metal housings, and stepper motor assemblies using Fusion360. I ensured strict tolerances for critical parts like motor shafts and pump gears, filed a provisional patent for a three-inlet manifold-gear pump with technical drawings, and sourced materials from local manufacturers to support late-stage prototyping and testing.
   </p>
@@ -100,7 +100,6 @@ At Ford Audio-Video, I supported the installation and integration of large-scale
 
 At Duke, I participate in several engineering and community organizations. With the **Duke Aerospace Engineering Club**, I machined precision rocket motor components and manufactured solid propellant for a successful 30,000 ft launch. Through **Project Tadpole**, I've modified more than 15 children’s toys to improve accessibility for children with disabilities. I also help organize adaptive outdoor activities through **Duke Adaptive Explorers**, including hiking, kayaking, and sports.
 
-<div>
   <!-- Images row -->
   <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
     <img src="images/Aero1.JPG" alt="Aero Project 1" style="width:100%; border-radius:5px;">
@@ -112,7 +111,7 @@ At Duke, I participate in several engineering and community organizations. With 
   <p style="text-align:center; font-size:0.9em; color:gray; margin-top:5px;">
     Aero motor assembly & Static Hot Fire Images
   </p>
-<div>
+
 
 ## Education
 
