@@ -77,12 +77,11 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 At Ford Audio-Video, I supported the installation and integration of large-scale AV systems for multi-million-dollar facilities. I assisted in commissioning and troubleshooting professional AV hardware at venues including the University of Texas Football Stadium. I collaborated closely with engineers and contractors to ensure seamless deployment of complex audio-visual solutions across multiple high-profile projects.
 
 <!-- Neckog Industries -->
-<div style="margin-bottom: 40px;">
 
-  **Neckog Industries — Mechanical Engineering Intern | Summer 2024**
-  <p>
-    During my internship at Neckog Industries, I designed and prototyped over ten components of a desktop injection molding device, including gear pumps, valves, sheet metal housings, and stepper motor assemblies using Fusion360. I ensured strict tolerances for critical parts like motor shafts and pump gears, filed a provisional patent for a three-inlet manifold-gear pump with technical drawings, and sourced materials from local manufacturers to support late-stage prototyping and testing.
-  </p>
+**Neckog Industries — Mechanical Engineering Intern | Summer 2024**
+
+During my internship at Neckog Industries, I designed and prototyped over ten components of a desktop injection molding device, including gear pumps, valves, sheet metal housings, and stepper motor assemblies using Fusion360. I ensured strict tolerances for critical parts like motor shafts and pump gears, filed a provisional patent for a three-inlet manifold-gear pump with technical drawings, and sourced materials from local manufacturers to support late-stage prototyping and testing.
+
 
   <!-- Images row -->
  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
@@ -93,7 +92,7 @@ At Ford Audio-Video, I supported the installation and integration of large-scale
   <p style="text-align:center; font-size:0.9em; color:gray; margin-top:5px;">
     Prototypes and assemblies designed and fabricated during my internship at Neckog Industries
   </p>
-</div>
+
 
 
 ## Extracurricular Activities
