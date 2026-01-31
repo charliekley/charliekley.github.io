@@ -19,7 +19,7 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
   <!-- Text column -->
   <div style="flex: 1; padding-right: 20px;">
-    <strong>Wildfire Burn Severity Predictor | Spring 2025</strong>
+    <strong>Wildfire Burn Severity Predictor</strong>
     <p>
       I applied machine learning techniques, using a Random Forest classifier in Python, to predict wildfire burn severity based solely on Landsat 8 imagery and SRTM elevation data. 
       The model achieved 70% accuracy, demonstrating the potential for data-driven wildfire management strategies.
@@ -47,7 +47,7 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
   <!-- Text column -->
   <div style="flex: 1; padding-left: 20px;">
-    <strong>Children’s Toy Space Maze | Spring 2024</strong>
+    <strong>Children’s Toy Space Maze</strong>
     <p>
       For this project, I designed an engaging space-themed toy suitable for a Happy Meal toy in SolidWorks. 
       I designed pieces for injection molding and calculated manufacturing costs to ensure the project stayed within budget constraints.
@@ -61,7 +61,7 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
   <!-- Text column -->
   <div style="flex: 1; padding-right: 20px;">
-    <strong>Seeing Sounds Engineering Design Project | Fall 2023</strong>
+    <strong>Seeing Sounds Engineering Design Project</strong>
     <p>
       I collaborated with a team to create a system that visualizes sound for children attending the Shakori Hills Music Festival. 
       We combined multiple inputs to produce engaging feedback, presented our design to the client and at a showcase, and received positive responses from actual users.
@@ -78,11 +78,11 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
 ## Work Experience
 
-**Ford Audio-Video - Project Engineer Intern | Summer 2025**
+**Ford Audio-Video - Project Engineer Intern, Summer 2025**
 
 At Ford AV, I supported the installation and integration of large-scale AV systems for multi-million-dollar facilities. I assisted in commissioning and troubleshooting professional AV hardware at venues including the University of Texas Football Stadium. I collaborated closely with engineers and contractors to ensure seamless deployment of complex audio-visual solutions across multiple high-profile projects.
 
-**Neckog Industries - Mechanical Engineering Intern | Summer 2024**
+**Neckog Industries - Mechanical Engineering Intern, Summer 2024**
 
 During my internship at Neckog Industries, I designed and prototyped over ten components of a desktop injection molding device, including gear pumps, valves, sheet metal housings, and stepper motor assemblies using Fusion360. I ensured strict tolerances for critical parts like motor shafts and pump gears, filed a provisional patent for a three-inlet manifold-gear pump with technical drawings, and sourced materials from local manufacturers to support late-stage prototyping and testing.
 
