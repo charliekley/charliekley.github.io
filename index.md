@@ -28,12 +28,15 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
       The model achieved 70% accuracy, demonstrating the potential for data-driven wildfire management strategies.
     </p>
   </div>
-  <div style="flex: 1;">
-    <img src="images/Fire1.png" alt="Wildfire Burn Severity Predictor" style="width:100%; border-radius:5px; margin-bottom:10px;">
-    <img src="images/Fire2.png" alt="Wildfire Burn Severity Predictor" style="width:100%; border-radius:5px; margin-bottom:10px;">
-    <img src="images/Fire3.png" alt="Wildfire Burn Severity Predictor" style="width:100%; border-radius:5px; margin-bottom:10px;">
-    <img src="images/Fire4.png" alt="Wildfire Burn Severity Predictor" style="width:100%; border-radius:5px;">
+  
+  <!-- Images grid column -->
+  <div style="flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+    <img src="images/Fire1.png" alt="Wildfire Burn 1" style="width:100%; border-radius:5px;">
+    <img src="images/Fire2.png" alt="Wildfire Burn 2" style="width:100%; border-radius:5px;">
+    <img src="images/Fire3.png" alt="Wildfire Burn 3" style="width:100%; border-radius:5px;">
+    <img src="images/Fire4.png" alt="Wildfire Burn 4" style="width:100%; border-radius:5px;">
   </div>
+
 </div>
 
 
