@@ -21,7 +21,7 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
   <div style="flex: 1; padding-right: 20px;">
     <strong>Wildfire Burn Severity Predictor</strong>
     <p>
-      I applied machine learning techniques, using a Random Forest classifier in Python, to predict wildfire burn severity based solely on Landsat 8 imagery and SRTM elevation data. 
+      I applied machine learning techniques, using a Random Forest classifier in Python, to predict wildfire burn severity based solely on Landsat 8 imagery, SRTM elevation data, and existing burn severity data. 
       The model achieved 70% accuracy, demonstrating the potential for data-driven wildfire management strategies.
     </p>
   </div>
@@ -47,9 +47,9 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
   <!-- Text column -->
   <div style="flex: 1; padding-left: 20px;">
-    <strong>Children’s Toy Space Maze</strong>
+    <strong>Space Maza Children's Toy</strong>
     <p>
-      For this project, I designed an engaging space-themed toy suitable for a Happy Meal toy in SolidWorks. 
+      For this project, I designed an engaging space-themed toy suitable for a Happy Meal toy in SolidWorks, and 3D printed a functional prototype to present.
       I designed pieces for injection molding and calculated manufacturing costs to ensure the project stayed within budget constraints.
     </p>
   </div>
@@ -80,7 +80,7 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
 **Ford Audio-Video - Project Engineer Intern, Summer 2025**
 
-At Ford AV, I supported the installation and integration of large-scale AV systems for multi-million-dollar facilities. I assisted in commissioning and troubleshooting professional AV hardware at venues including the University of Texas Football Stadium. I collaborated closely with engineers and contractors to ensure seamless deployment of complex audio-visual solutions across multiple high-profile projects.
+At Ford AV, I worked on the installation and integration of large-scale AV systems for multi-million-dollar facilities. I assisted in commissioning and troubleshooting professional AV hardware at large venues including the University of Texas Football Stadium. I collaborated closely with engineers and contractors to ensure seamless deployment of complex audio-visual solutions across multiple high-profile projects.
 
 **Neckog Industries - Mechanical Engineering Intern, Summer 2024**
 
