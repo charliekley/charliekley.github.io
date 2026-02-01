@@ -150,4 +150,4 @@ Relevant Courses: Heat & Mass Transfer, Fluid Dynamics, Control & Systems Engine
 
 ## Contact Me!
 - Email: charliekley12@gmail.com  
-- [LinkedIn](https://linkedin.com/in/charliekley)
+- [LinkedIn](https://linkedin.com/in/charlie-kley)
