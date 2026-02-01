@@ -121,6 +121,10 @@ Relevant Courses: Heat & Mass Transfer, Fluid Dynamics, Control & Systems Engine
 
 ---
 
+<p style="text-align:center; font-size:0.9em; color:gray;">
+  Assorted CAD Models, 3D Prints, and other cool things I've done
+</p>
+
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
   <img src="images/3D1.png" alt="3D Print 1" style="width:100%; border-radius:5px;">
   <img src="images/3D2.jpeg" alt="3D Print 2" style="width:100%; border-radius:5px;">
@@ -134,10 +138,6 @@ Relevant Courses: Heat & Mass Transfer, Fluid Dynamics, Control & Systems Engine
   <img src="images/3D9.jpeg" alt="3D Print 9" style="width:100%; border-radius:5px;">
   <img src="images/3D10.jpeg" alt="3D Print 10" style="width:100%; border-radius:5px;">
 </div>
-
-<p style="text-align:center; font-size:0.9em; color:gray;">
-  Assorted CAD Models, 3D Prints, and other cool things I've done
-</p>
 
 ---
 
