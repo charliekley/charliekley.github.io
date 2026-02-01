@@ -49,7 +49,7 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
   <!-- Text column -->
   <div style="flex: 1; padding-left: 20px;">
-    <strong>Space Maza Children's Toy</strong>
+    <strong>Space Maze Children's Toy</strong>
     <p>
       For this project, I designed an engaging space-themed toy suitable for a Happy Meal toy in SolidWorks, and 3D printed a functional prototype to present.
       I designed pieces for injection molding and calculated manufacturing costs to ensure the project stayed within budget constraints.
