@@ -121,18 +121,18 @@ Relevant Courses: Heat & Mass Transfer, Fluid Dynamics, Control & Systems Engine
 
 ---
 
-<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-bottom: 10px;">
-  <img src="images/3D1.png" alt="3D print 1" style="width:100%; border-radius:5px;">
-  <img src="images/3D2.jpeg" alt="3D print 2" style="width:100%; border-radius:5px;">
-  <img src="images/3D3.jpeg" alt="3D print 3" style="width:100%; border-radius:5px;">
-  <img src="images/3D4.png" alt="3D print 4" style="width:100%; border-radius:5px;">
-  <img src="images/3D5.png" alt="3D print 5" style="width:100%; border-radius:5px;">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+  <img src="images/3D1.png" alt="3D Print 1" style="width:100%; border-radius:5px;">
+  <img src="images/3D2.jpeg" alt="3D Print 2" style="width:100%; border-radius:5px;">
+  <img src="images/3D3.jpeg" alt="3D Print 3" style="width:100%; border-radius:5px;">
 
-  <img src="images/3D6.jpeg" alt="3D print 6" style="width:100%; border-radius:5px;">
-  <img src="images/3D7.jpeg" alt="3D print 7" style="width:100%; border-radius:5px;">
-  <img src="images/3D8.png" alt="3D print 8" style="width:100%; border-radius:5px;">
-  <img src="images/3D9.jpeg" alt="3D print 9" style="width:100%; border-radius:5px;">
-  <img src="images/3D10.jpeg" alt="3D print 10" style="width:100%; border-radius:5px;">
+  <img src="images/3D4.png" alt="3D Print 4" style="width:100%; border-radius:5px;">
+  <img src="images/3D5.png" alt="3D Print 5" style="width:100%; border-radius:5px;">
+  <img src="images/3D7.jpeg" alt="3D Print 7" style="width:100%; border-radius:5px;">
+
+  <img src="images/3D8.png" alt="3D Print 8" style="width:100%; border-radius:5px;">
+  <img src="images/3D9.jpeg" alt="3D Print 9" style="width:100%; border-radius:5px;">
+  <img src="images/3D10.jpeg" alt="3D Print 10" style="width:100%; border-radius:5px;">
 </div>
 
 <p style="text-align:center; font-size:0.9em; color:gray;">
