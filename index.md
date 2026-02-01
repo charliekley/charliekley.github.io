@@ -10,7 +10,7 @@ I'm a current junior at Duke university studying Mechanical Engineering with a m
 
 ## Tools & Skills
 
-SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prototyping, System Integration, FEA, Onshape 
+SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prototyping, System Integration, FEA, Onshape
 
 ---
 
