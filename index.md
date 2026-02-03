@@ -4,7 +4,7 @@ title: Charlie Kley
 
 ## About Me
 
-I'm a current junior at Duke university studying Mechanical Engineering with a math minor. I love turning ideas into physical protoypes using CAD and 3D printing. I'm passionate about robotics, aerospace, and really most projects that merge hands-on design and testing with analytical problem solving.
+I'm a junior at Duke university studying Mechanical Engineering with a math minor. I love turning ideas into physical protoypes using CAD and 3D printing. I'm passionate about robotics, aerospace, and almost any project that merges hands-on design and testing with analytical problem solving.
 
 ---
 
@@ -51,7 +51,7 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
   <div style="flex: 1; padding-left: 20px;">
     <strong>Space Maze Children's Toy</strong>
     <p>
-      For this project, I designed an engaging space-themed toy suitable for a Happy Meal toy in SolidWorks, and 3D printed a functional prototype to present.
+      For this project, I created an engaging space-themed toy suitable for a Happy Meal toy in SolidWorks, and 3D printed a functional prototype to present.
       I designed pieces for injection molding and calculated manufacturing costs to ensure the project stayed within budget constraints.
     </p>
   </div>
@@ -82,11 +82,11 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
 **Ford Audio-Video - Project Engineer Intern, Summer 2025**
 
-At Ford AV, I worked on the installation and integration of large-scale AV systems for multi-million-dollar facilities. I assisted in commissioning and troubleshooting professional AV hardware at large venues including the University of Texas Football Stadium. I collaborated closely with engineers and contractors to ensure seamless deployment of complex audio-visual solutions across multiple high-profile projects.
+At Ford AV, I installed and integrated large-scale AV systems for multi-million-dollar facilities. I assisted in commissioning and troubleshooting professional AV hardware at large venues including the University of Texas Football Stadium. I collaborated closely with engineers and contractors to ensure seamless deployment of complex audio-visual solutions across multiple high-profile projects.
 
 **Neckog Industries - Mechanical Engineering Intern, Summer 2024**
 
-During my internship at Neckog Industries, I designed and prototyped over ten components of a desktop injection molding device, including gear pumps, valves, sheet metal housings, and stepper motor assemblies using Fusion360. I ensured strict tolerances for critical parts like motor shafts and pump gears, filed a provisional patent for a three-inlet manifold-gear pump with technical drawings, and sourced materials from local manufacturers to support late-stage prototyping and testing.
+During my internship at Neckog Industries, I designed and prototyped more than ten components of a desktop injection molding device, including gear pumps, valves, sheet metal housings, and stepper motor assemblies using Fusion360. I ensured strict tolerances for critical parts like motor shafts and pump gears, filed a provisional patent for a three-inlet manifold-gear pump with technical drawings, and sourced materials from local manufacturers to support late-stage prototyping and testing.
 
 <!-- Neckog Images -->
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top:10px;">
@@ -100,7 +100,7 @@ During my internship at Neckog Industries, I designed and prototyped over ten co
 
 ## Extracurricular Activities
 
-At Duke, I participate in several engineering and community organizations. With the **Duke Aerospace Engineering Club**, I machined precision rocket motor components and manufactured solid propellant for a successful 30,000 ft launch. Through **Project Tadpole**, I've modified more than 15 children’s toys to improve accessibility for children with disabilities. I also help organize adaptive outdoor activities through **Duke Adaptive Explorers**, including hiking, kayaking, and sports.
+At Duke, I participate in several engineering and community organizations. With the **Duke Aerospace Engineering Club**, I machined precision rocket motor components and manufactured solid propellant for a successful 30,000 ft launch. Through **Project Tadpole**, I've modified more than 15 children’s toys to improve accessibility for children with disabilities. I also helped organize adaptive hiking, kayaking, and sports for individuals with physical and intellectual disabilities through **Duke Adaptive Explorers**.
 
 <!-- Aero Images -->
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
@@ -148,6 +148,6 @@ Relevant Courses: Heat & Mass Transfer, Fluid Dynamics, Control & Systems Engine
 
 ---
 
-## Contact Me!
+## Contact Me
 - Email: charliekley12@gmail.com  
 - [LinkedIn](https://linkedin.com/in/charlie-kley)
