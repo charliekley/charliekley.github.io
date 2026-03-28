@@ -100,7 +100,7 @@ During my internship at Neckog Industries, I designed and prototyped more than t
 
 ## Extracurricular Activities
 
-At Duke, I participate in several engineering and community organizations. With the **Duke Aerospace Engineering Club**, I machined precision rocket motor components and manufactured solid propellant for a successful 30,000 ft launch. Through **Project Tadpole**, I've modified more than 15 children’s toys to improve accessibility for children with disabilities. I also helped organize adaptive hiking, kayaking, and sports for individuals with physical and intellectual disabilities through **Duke Adaptive Explorers**.
+At Duke, I participate in several engineering and community organizations. With the **Duke Aerospace Engineering Club**, I've machined precision rocket motor components and manufactured solid propellant for a successful 30,000 ft launch. Through **Project Tadpole**, I've modified more than 15 children’s toys to improve accessibility for children with disabilities. I also help organize adaptive hiking, kayaking, and sports for individuals with physical and intellectual disabilities through **Duke Adaptive Explorers**.
 
 <!-- Aero Images -->
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
@@ -115,11 +115,13 @@ At Duke, I participate in several engineering and community organizations. With 
 
 ## Education
 
-**Duke University** | Durham, NC
-Bachelor of Engineering in Mechanical Engineering with a Math Minor | GPA: 3.94/4.00  
+**Duke University** | Durham, NC  
+Bachelor of Engineering in Mechanical Engineering with a Minor in Mathematics | GPA: 3.94/4.00  
 Dean’s List with Distinction: 2023, 2024, 2025  
 
 Relevant Courses: Heat & Mass Transfer, Fluid Dynamics, Control & Systems Engineering, Thermodynamics, Mechanics of Materials, Statics & Dynamics, Mechatronics, Structures and Properties of Solids, Differential & Partial Equations, Multivariable Calculus, Linear Algebra, Physics
+
+Member of Pi Tau Sigma Mechanical Engineering Honor Society
 
 ---
 
