@@ -115,8 +115,8 @@ At Duke, I participate in several engineering and community organizations. With 
 
 ## Education
 
-**Duke University** | Durham, NC  
-Bachelor of Engineering in Mechanical Engineering with a Minor in Mathematics | GPA: 3.94/4.00  
+**Duke University** | Durham, NC | GPA: 3.94/4.00  
+Bachelor of Engineering in Mechanical Engineering with a Minor in Mathematics  
 Dean’s List with Distinction: 2023, 2024, 2025  
 
 Relevant Courses: Heat & Mass Transfer, Fluid Dynamics, Control & Systems Engineering, Thermodynamics, Mechanics of Materials, Statics & Dynamics, Mechatronics, Structures and Properties of Solids, Differential & Partial Equations, Multivariable Calculus, Linear Algebra, Physics
