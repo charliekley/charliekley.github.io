@@ -4,7 +4,7 @@ title: Charlie Kley
 
 ## About Me
 
-I'm a junior at Duke university studying Mechanical Engineering with a math minor. I love turning ideas into physical protoypes using CAD and 3D printing. I'm passionate about robotics, aerospace, and almost any project that merges hands-on design and testing with analytical problem solving.
+I'm a junior at Duke university studying Mechanical Engineering with a minor in Mathematics. I love turning ideas into physical protoypes using CAD and 3D printing. I'm passionate about robotics, aerospace, and almost any project that merges hands-on design and testing with analytical problem solving.
 
 ---
 
