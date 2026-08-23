@@ -2,13 +2,13 @@
 title: Charlie Kley
 ---
 
-## About Me
+## About Me!
 
 <div style="display: flex; align-items: center; margin-bottom: 30px; gap: 30px;">
 
   <div style="flex: 2;">
     <p>
-      I'm a senior at Duke university studying Mechanical Engineering with a minor in Mathematics. I love turning ideas into physical protoypes using CAD and 3D printing. I'm passionate about aerospace, robotics, and almost any project that merges hands-on design and testing with analytical problem solving.
+      I'm a senior at Duke university studying Mechanical Engineering with a minor in Mathematics. I love turning ideas into physical prototypes using CAD and 3D printing. I'm passionate about aerospace, robotics, and almost any project that merges hands-on design and testing with analytical problem solving.
     </p>
   </div>
 
@@ -22,18 +22,18 @@ title: Charlie Kley
 
 ## Tools & Skills
 
-SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prototyping, System Integration, FEA, Onshape
+SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prototyping, System Integration, FEA, Onshape, Excel VBA Macros
 
 ---
 
 ## Projects
 
-<!-- Centrifugal Pump Structural Support -->
+<!-- Pump Support Project -->
 <div style="display: flex; align-items: flex-start; margin-bottom: 40px; gap: 20px;">
 
   <!-- Text column -->
   <div style="flex: 1; padding-right: 20px;">
-    <strong>Centrifugal Pump Structural Support</strong>
+    <strong>Pump Support Project</strong>
     <p>
       I designed, analyzed, and fabricated a structural support frame for a belt-driven centrifugal pump, using symbolic stress and deflection analysis, material selection, and FEA to iterate and validate the design. The final prototype weighed 0.82 kg, cost $109 of the $150 budget to manufacture, and withstood the maximum 20.6 kg test load without yielding or buckling. Physical testing also revealed the effects of pin-joint compliance, highlighting differences between idealized analytical and FEA models and real-world structural behavior.
     </p>
@@ -87,7 +87,7 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
   <div style="flex: 1; padding-left: 20px;">
     <strong>Space Maze Children's Toy</strong>
     <p>
-      For this project, I created an engaging space-themed toy suitable for a Happy Meal toy in SolidWorks, and 3D printed a functional prototype to present.
+      For this project, I created an engaging space-themed toy suitable for a fast-food promotional toy in SolidWorks, and 3D printed a functional prototype to present.
       I designed pieces for injection molding and calculated manufacturing costs to ensure the project stayed within budget constraints.
     </p>
   </div>
