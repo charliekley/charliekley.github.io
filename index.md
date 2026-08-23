@@ -4,7 +4,19 @@ title: Charlie Kley
 
 ## About Me
 
-I'm a senior at Duke university studying Mechanical Engineering with a minor in Mathematics. I love turning ideas into physical protoypes using CAD and 3D printing. I'm passionate about aerospace, robotics, and almost any project that merges hands-on design and testing with analytical problem solving.
+<div style="display: flex; align-items: center; margin-bottom: 30px; gap: 30px;">
+
+  <div style="flex: 2;">
+    <p>
+      I'm a senior at Duke university studying Mechanical Engineering with a minor in Mathematics. I love turning ideas into physical protoypes using CAD and 3D printing. I'm passionate about aerospace, robotics, and almost any project that merges hands-on design and testing with analytical problem solving.
+    </p>
+  </div>
+
+  <div style="flex: 1; text-align: center;">
+    <img src="images/Charlie_badge_pic_xbow.jpeg" alt="Charlie Kley" style="width:100%; max-width:220px; border-radius:5px;">
+  </div>
+
+</div>
 
 ---
 
@@ -16,11 +28,27 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
 ## Projects
 
-**Centrifugal Pump Structural Support**
+<!-- Centrifugal Pump Structural Support -->
+<div style="display: flex; align-items: flex-start; margin-bottom: 40px; gap: 20px;">
 
-I designed, analyzed, and fabricated a structural support frame for a belt-driven centrifugal pump, using symbolic stress and deflection analysis, material selection, and FEA to iterate and validate the design. The final prototype weighed 0.82 kg, cost $109 of the $150 budget to manufacture, and withstood the maximum 20.6 kg test load without yielding or buckling. Physical testing also revealed the effects of pin-joint compliance, highlighting differences between idealized analytical and FEA models and real-world structural behavior.
+  <!-- Text column -->
+  <div style="flex: 1; padding-right: 20px;">
+    <strong>Centrifugal Pump Structural Support</strong>
+    <p>
+      I designed, analyzed, and fabricated a structural support frame for a belt-driven centrifugal pump, using symbolic stress and deflection analysis, material selection, and FEA to iterate and validate the design. The final prototype weighed 0.82 kg, cost $109 of the $150 budget to manufacture, and withstood the maximum 20.6 kg test load without yielding or buckling. Physical testing also revealed the effects of pin-joint compliance, highlighting differences between idealized analytical and FEA models and real-world structural behavior.
+    </p>
+    <p>
+      <a href="pump_report.pdf">Read the full project report</a>
+    </p>
+  </div>
 
-[Read the full project report](pump_report.pdf)
+  <!-- Images column -->
+  <div style="flex: 1;">
+    <img src="images/all_parts.jpeg" alt="Centrifugal pump support components" style="width:100%; border-radius:5px; margin-bottom:10px;">
+    <img src="images/assem_mounted.jpeg" alt="Assembled centrifugal pump support" style="width:100%; border-radius:5px;">
+  </div>
+
+</div>
 
 
 
@@ -88,13 +116,42 @@ I designed, analyzed, and fabricated a structural support frame for a belt-drive
 
 ## Work Experience  
 
-**X-Bow Systems - Manufacturing Engineering Intern, Summer 2026**
+<!-- X-Bow Systems -->
+<div style="display: flex; align-items: center; margin-bottom: 40px; gap: 30px;">
 
-At X-Bow Systems, I worked on manufacturing engineering projects focused on improving production efficiency as the company scales. I developed a manufacturing execution system (MES) to track production and building occupancy with an integrated andon light system, and automated material requests using Python and Excel VBA, reducing a roughly 8-minute process to under a minute. Across several projects, I implemented improvements projected to save about 368 labor hours annually (46 working days!) while improving traceability and reducing production stoppages.
+  <!-- Images column -->
+  <div style="flex: 1; text-align: center;">
+    <img src="images/xbow_intern_photo.jpg" alt="X-Bow Systems Internship" style="width:100%; border-radius:5px; margin-bottom:15px;">
+    <img src="images/xbow_logo.png" alt="X-Bow Systems Logo" style="width:65%; max-width:250px;">
+  </div>
 
-**Ford Audio-Video - Project Engineer Intern, Summer 2025**
+  <!-- Text column -->
+  <div style="flex: 1; padding-left: 20px;">
+    <strong>X-Bow Systems - Manufacturing Engineering Intern, Summer 2026</strong>
+    <p>
+      At X-Bow Systems, I worked on manufacturing engineering projects focused on improving production efficiency as the company scales. I developed a manufacturing execution system (MES) to track production and building occupancy with an integrated andon light system, and automated material requests using Python and Excel VBA, reducing a roughly 8-minute process to under a minute. Across several projects, I implemented improvements projected to save about 368 labor hours annually (46 working days!) while improving traceability and reducing production stoppages.
+    </p>
+  </div>
 
-At Ford AV, I installed and integrated large-scale AV systems for multi-million-dollar facilities. I assisted in commissioning and troubleshooting professional AV hardware at large venues including the University of Texas Football Stadium. I collaborated closely with engineers and contractors to ensure seamless deployment of complex audio-visual solutions across multiple high-profile projects.
+</div>
+
+<!-- Ford Audio-Video -->
+<div style="display: flex; align-items: center; margin-bottom: 40px; gap: 30px;">
+
+  <!-- Text column -->
+  <div style="flex: 2; padding-right: 20px;">
+    <strong>Ford Audio-Video - Project Engineer Intern, Summer 2025</strong>
+    <p>
+      At Ford AV, I installed and integrated large-scale AV systems for multi-million-dollar facilities. I assisted in commissioning and troubleshooting professional AV hardware at large venues including the University of Texas Football Stadium. I collaborated closely with engineers and contractors to ensure seamless deployment of complex audio-visual solutions across multiple high-profile projects.
+    </p>
+  </div>
+
+  <!-- Logo column -->
+  <div style="flex: 1; text-align: center;">
+    <img src="images/Ford-AV-Logo.png" alt="Ford Audio-Video Logo" style="width:85%; max-width:250px;">
+  </div>
+
+</div>
 
 **Neckog Industries - Mechanical Engineering Intern, Summer 2024**
 
