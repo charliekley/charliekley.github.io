@@ -4,7 +4,7 @@ title: Charlie Kley
 
 ## About Me
 
-I'm a junior at Duke university studying Mechanical Engineering with a minor in Mathematics. I love turning ideas into physical protoypes using CAD and 3D printing. I'm passionate about robotics, aerospace, and almost any project that merges hands-on design and testing with analytical problem solving.
+I'm a senior at Duke university studying Mechanical Engineering with a minor in Mathematics. I love turning ideas into physical protoypes using CAD and 3D printing. I'm passionate about aerospace, robotics, and almost any project that merges hands-on design and testing with analytical problem solving.
 
 ---
 
@@ -15,6 +15,14 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 ---
 
 ## Projects
+
+**Centrifugal Pump Structural Support**
+
+I designed, analyzed, and fabricated a structural support frame for a belt-driven centrifugal pump, using symbolic stress and deflection analysis, material selection, and FEA to iterate and validate the design. The final prototype weighed 0.82 kg, cost $109 of the $150 budget to manufacture, and withstood the maximum 20.6 kg test load without yielding or buckling. Physical testing also revealed the effects of pin-joint compliance, highlighting differences between idealized analytical and FEA models and real-world structural behavior.
+
+[Read the full project report](pump_report.pdf)
+
+
 
 <!-- Wildfire Burn Severity Predictor -->
 <div style="display: flex; align-items: flex-start; margin-bottom: 40px; gap: 20px;">
@@ -78,7 +86,11 @@ SolidWorks, Fusion360, 3D Printing, Python, Arduino, Java, Microsoft Suite, Prot
 
 </div>
 
-## Work Experience
+## Work Experience  
+
+**X-Bow Systems - Manufacturing Engineering Intern, Summer 2026**
+
+At X-Bow Systems, I worked on manufacturing engineering projects focused on improving production efficiency as the company scales. I developed a manufacturing execution system (MES) to track production and building occupancy with an integrated andon light system, and automated material requests using Python and Excel VBA, reducing a roughly 8-minute process to under a minute. Across several projects, I implemented improvements projected to save about 368 labor hours annually (46 working days!) while improving traceability and reducing production stoppages.
 
 **Ford Audio-Video - Project Engineer Intern, Summer 2025**
 
