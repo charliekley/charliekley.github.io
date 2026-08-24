@@ -55,6 +55,7 @@ img {
 }
 
 
+
 /* ==========================================================
    NAVIGATION
    ========================================================== */
@@ -69,21 +70,19 @@ img {
     padding-left: max(24px, calc((100vw - var(--max-width)) / 2));
     padding-right: max(24px, calc((100vw - var(--max-width)) / 2));
 
-    border-bottom: 1px solid var(--line);
-
     position: sticky;
     top: 0;
     z-index: 20;
 
-    background: rgba(247, 247, 245, 0.94);
-    backdrop-filter: blur(12px);
+    background: #172635;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 
-/* "Charlie Kley" in top-left */
+/* Name in top-left */
 
 .brand {
-    color: var(--ink);
+    color: white;
     text-decoration: none;
 
     font-family: var(--sans);
@@ -93,15 +92,14 @@ img {
 }
 
 
-/* Navigation links */
-
 nav {
     display: flex;
     gap: 28px;
 }
 
+
 nav a {
-    color: var(--muted);
+    color: #c3ced7;
     text-decoration: none;
 
     font-family: var(--sans);
@@ -111,8 +109,9 @@ nav a {
     transition: color 0.2s ease;
 }
 
+
 nav a:hover {
-    color: var(--ink);
+    color: white;
 }
 
 
@@ -1006,5 +1005,98 @@ footer .wrap {
     footer .wrap {
         flex-direction: column;
     }
+
+
+   /* ==========================================================
+   MOTION
+   ========================================================== */
+
+
+/* Elements start slightly lower and transparent */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(24px);
+
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+
+/* JavaScript adds this class when the element enters the screen */
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Slight hover movement for project cards */
+
+.card {
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
+}
+
+
+.card:hover {
+    transform: translateY(-4px);
+
+    border-color: #bfc3c5;
+
+    box-shadow:
+        0 12px 30px rgba(16, 24, 32, 0.08);
+}
+
+
+/* Same idea for the large pump project */
+
+.feature {
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+
+.feature:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 14px 35px rgba(16, 24, 32, 0.07);
+}
+
+
+/*
+   Accessibility:
+   if someone's computer is configured to reduce motion,
+   don't animate things.
+*/
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    .reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    .card,
+    .feature {
+        transition: none;
+    }
+
+    .card:hover,
+    .feature:hover {
+        transform: none;
+    }
+
+}
 
 }
