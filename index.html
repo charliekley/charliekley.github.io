@@ -7,7 +7,7 @@
 
     <meta
         name="description"
-        content="Charlie Kley — mechanical engineering student at Duke University."
+        content="Charlie Kley — mechanical engineering student at Duke University focused on design, manufacturing, aerospace, prototyping, and engineering automation."
     >
 
     <title>Charlie Kley | Mechanical Engineering</title>
@@ -24,56 +24,11 @@
 </head>
 
 
-    <script>
-
-    /*
-     * Subtle scroll animation
-     *
-     * Any HTML element with class="reveal"
-     * will fade upward when it enters the screen.
-     */
-
-    const revealElements = document.querySelectorAll(".reveal");
-
-    const revealObserver = new IntersectionObserver(
-        (entries) => {
-
-            entries.forEach((entry) => {
-
-                if (entry.isIntersecting) {
-
-                    entry.target.classList.add("visible");
-
-                    /*
-                     * Stop watching after it has appeared.
-                     * This prevents sections from constantly
-                     * disappearing/reappearing while scrolling.
-                     */
-
-                    revealObserver.unobserve(entry.target);
-
-                }
-
-            });
-
-        },
-        {
-            threshold: 0.12
-        }
-    );
-
-
-    revealElements.forEach((element) => {
-        revealObserver.observe(element);
-    });
-
-</script>
-
 <body>
 
-    <!-- =========================
+    <!-- =====================================================
          NAVIGATION
-    ========================== -->
+    ====================================================== -->
 
     <header class="nav">
 
@@ -93,16 +48,17 @@
 
     <main id="top">
 
-        <!-- =========================
+
+        <!-- =================================================
              ABOUT / HERO
-        ========================== -->
+        ================================================== -->
 
         <section class="hero wrap">
 
             <div class="hero-copy">
 
                 <p class="eyebrow">
-                    MECHANICAL ENGINEERING
+                    MECHANICAL ENGINEERING · DESIGN · BUILD
                 </p>
 
                 <h1>
@@ -115,15 +71,15 @@
                 </p>
 
                 <p class="hero-about">
-                    I'm interested in mechanical design, manufacturing,
-                    aerospace, and the process of turning an idea into
-                    something that can actually be built and tested.
-                    My experience spans CAD and prototyping, structural
-                    analysis, manufacturing systems, and engineering
-                    automation.
+                    I like working on problems where analysis eventually has
+                    to become something real. My experience spans mechanical
+                    design, manufacturing, aerospace, prototyping, and
+                    engineering automation — from CAD and FEA to machining,
+                    testing, and production systems.
                 </p>
 
                 <div class="actions">
+
                     <a class="btn primary" href="#projects">
                         View Projects
                     </a>
@@ -139,6 +95,7 @@
                     >
                         LinkedIn
                     </a>
+
                 </div>
 
             </div>
@@ -156,34 +113,43 @@
         </section>
 
 
-        <!-- =========================
-             PROJECTS
-        ========================== -->
+
+        <!-- =================================================
+             ENGINEERING PROJECTS
+        ================================================== -->
 
         <section id="projects" class="wrap section">
 
-            <div class="section-head">
+            <div class="section-head reveal">
 
                 <p class="eyebrow">
-                    SELECTED WORK
+                    DESIGN · ANALYZE · BUILD · TEST
                 </p>
 
                 <h2>
                     Engineering Projects
                 </h2>
 
+                <p>
+                    A selection of projects spanning structural design,
+                    computation, product development, and mechatronics.
+                </p>
+
             </div>
 
 
-            <!-- Pump Project -->
 
-            <article class="feature">
+            <!-- =============================================
+                 PUMP PROJECT
+            ============================================== -->
+
+            <article class="feature reveal">
 
                 <div class="feature-media">
 
                     <img
                         src="images/all_parts.jpeg"
-                        alt="Fabricated pump support components"
+                        alt="Fabricated centrifugal pump support components"
                     >
 
                     <img
@@ -247,14 +213,17 @@
             </article>
 
 
-            <!-- Additional Projects -->
+
+            <!-- =============================================
+                 ADDITIONAL PROJECTS
+            ============================================== -->
 
             <div class="cards">
 
 
                 <!-- Wildfire -->
 
-                <article class="card">
+                <article class="card reveal">
 
                     <div class="card-images">
 
@@ -290,9 +259,10 @@
                 </article>
 
 
+
                 <!-- Space Maze -->
 
-                <article class="card">
+                <article class="card reveal">
 
                     <img
                         class="card-hero"
@@ -306,7 +276,7 @@
 
                     <p>
                         Designed a children's maze toy in SolidWorks and built
-                        a functional prototype. Components were designed with
+                        a functional prototype. Components were developed with
                         injection molding, assembly, and manufacturing cost in
                         mind.
                     </p>
@@ -320,14 +290,15 @@
                 </article>
 
 
+
                 <!-- Seeing Sounds -->
 
-                <article class="card">
+                <article class="card reveal">
 
                     <img
                         class="card-hero"
                         src="images/SS1.jpeg"
-                        alt="Seeing Sounds project"
+                        alt="Seeing Sounds engineering project"
                     >
 
                     <h3>
@@ -351,21 +322,60 @@
 
             </div>
 
+
+
+            <!-- =============================================
+                 PROJECT DETAIL GALLERY
+
+                 These bring back some of the photos that were
+                 removed when the site was simplified.
+            ============================================== -->
+
+            <div class="project-detail-gallery reveal">
+
+                <img
+                    src="images/Fire2.png"
+                    alt="Wildfire project analysis"
+                >
+
+                <img
+                    src="images/Fire4.png"
+                    alt="Wildfire burn severity project output"
+                >
+
+                <img
+                    src="images/Space2.jpeg"
+                    alt="Space Maze design and prototype"
+                >
+
+                <img
+                    src="images/Space3.jpeg"
+                    alt="Space Maze prototype detail"
+                >
+
+                <img
+                    src="images/SS2.jpeg"
+                    alt="Seeing Sounds project detail"
+                >
+
+            </div>
+
         </section>
 
 
-                <!-- =========================
+
+        <!-- =================================================
              EXPERIENCE
-        ========================== -->
+        ================================================== -->
 
         <section id="experience" class="dark section">
 
             <div class="wrap">
 
-                <div class="section-head">
+                <div class="section-head reveal">
 
                     <p class="eyebrow">
-                        EXPERIENCE
+                        FROM CAD TO THE PRODUCTION FLOOR
                     </p>
 
                     <h2>
@@ -378,15 +388,24 @@
                 <div class="timeline">
 
 
-                    <!-- X-Bow Systems -->
+                    <!-- =====================================
+                         X-BOW SYSTEMS
+                    ====================================== -->
 
-                    <article>
+                    <article class="reveal">
 
                         <div class="year">
                             2026
                         </div>
 
+
                         <div>
+
+                            <img
+                                class="company-logo"
+                                src="images/xbow_logo.png"
+                                alt="X-Bow Systems logo"
+                            >
 
                             <p class="company">
                                 X-BOW SYSTEMS
@@ -406,10 +425,18 @@
                                 Automated material request workflows using
                                 Python and Excel VBA, reducing a process that
                                 took approximately eight minutes to under one
-                                minute. Improvements across projects were
-                                projected to save approximately 368 labor
-                                hours annually while improving traceability
-                                and reducing production stoppages.
+                                minute.
+                            </p>
+
+                            <p>
+                                Improvements across projects were projected to
+                                save approximately
+                                <strong>
+                                    368 labor hours annually — equivalent to
+                                    46 eight-hour working days
+                                </strong>
+                                — while improving traceability and reducing
+                                production stoppages.
                             </p>
 
                             <img
@@ -423,15 +450,27 @@
                     </article>
 
 
-                    <!-- Ford Audio-Video -->
 
-                    <article>
+                    <!-- =====================================
+                         FORD AUDIO-VIDEO
+                    ====================================== -->
+
+                    <article class="reveal">
 
                         <div class="year">
                             2025
                         </div>
 
+
                         <div>
+
+                            <!-- Ford AV logo restored -->
+
+                            <img
+                                class="company-logo ford-logo"
+                                src="images/Ford-AV-Logo.png"
+                                alt="Ford Audio-Video logo"
+                            >
 
                             <p class="company">
                                 FORD AUDIO-VIDEO
@@ -460,13 +499,17 @@
                     </article>
 
 
-                    <!-- Neckog Industries -->
 
-                    <article>
+                    <!-- =====================================
+                         NECKOG INDUSTRIES
+                    ====================================== -->
+
+                    <article class="reveal">
 
                         <div class="year">
                             2024
                         </div>
+
 
                         <div>
 
@@ -492,6 +535,8 @@
                             </p>
 
 
+                            <!-- More Neckog work restored -->
+
                             <div class="mini-gallery">
 
                                 <img
@@ -502,6 +547,16 @@
                                 <img
                                     src="images/Neckog2.jpeg"
                                     alt="Neckog mechanical assembly"
+                                >
+
+                                <img
+                                    src="images/Neckog3.png"
+                                    alt="Neckog engineering design"
+                                >
+
+                                <img
+                                    src="images/Neckog4.png"
+                                    alt="Neckog CAD work"
                                 >
 
                                 <img
@@ -522,13 +577,14 @@
         </section>
 
 
-        <!-- =========================
+
+        <!-- =================================================
              ENGINEERING ACTIVITIES
-        ========================== -->
+        ================================================== -->
 
         <section class="wrap section">
 
-            <div class="two-col">
+            <div class="two-col reveal">
 
                 <div>
 
@@ -537,7 +593,7 @@
                     </p>
 
                     <h2>
-                        Engineering Activities
+                        Rockets, Accessibility &amp; More
                     </h2>
 
                 </div>
@@ -546,20 +602,23 @@
                 <div class="activities">
 
                     <p>
-                        <b>Duke Aerospace Engineering Club</b><br>
+                        <b>Duke Aerospace Engineering Club</b>
+                        <br>
                         Machined precision rocket-motor components and
                         manufactured solid propellant for a successful
                         30,000-foot launch.
                     </p>
 
                     <p>
-                        <b>Project Tadpole</b><br>
+                        <b>Project Tadpole</b>
+                        <br>
                         Modified more than 15 children's toys to improve
                         accessibility for children with disabilities.
                     </p>
 
                     <p>
-                        <b>Duke Adaptive Explorers</b><br>
+                        <b>Duke Adaptive Explorers</b>
+                        <br>
                         Help organize adaptive hiking, kayaking, and sports
                         activities.
                     </p>
@@ -569,9 +628,7 @@
             </div>
 
 
-            <!-- Aerospace photos -->
-
-            <div class="aero-gallery">
+            <div class="aero-gallery reveal">
 
                 <img
                     src="images/Aero1.JPG"
@@ -593,18 +650,21 @@
         </section>
 
 
-        <!-- =========================
+
+        <!-- =================================================
              CAD + PROTOTYPING
-        ========================== -->
+
+             All 10 original 3D/build images are included here.
+        ================================================== -->
 
         <section id="builds" class="gallery-section">
 
             <div class="wrap">
 
-                <div class="section-head">
+                <div class="section-head reveal">
 
                     <p class="eyebrow">
-                        DESIGN + FABRICATION
+                        SOME THINGS I'VE MADE
                     </p>
 
                     <h2>
@@ -612,8 +672,8 @@
                     </h2>
 
                     <p>
-                        A selection of CAD, prototypes, fabricated parts,
-                        and other engineering work.
+                        A mix of CAD, prototypes, fabricated parts, and
+                        other things I've designed or built along the way.
                     </p>
 
                 </div>
@@ -622,31 +682,61 @@
                 <div class="build-grid">
 
                     <img
+                        class="reveal"
                         src="images/3D1.png"
                         alt="CAD and prototype work"
                     >
 
                     <img
+                        class="reveal"
                         src="images/3D2.jpeg"
                         alt="CAD and prototype work"
                     >
 
                     <img
+                        class="reveal"
+                        src="images/3D3.jpeg"
+                        alt="CAD and prototype work"
+                    >
+
+                    <img
+                        class="reveal"
                         src="images/3D4.png"
                         alt="CAD and prototype work"
                     >
 
                     <img
+                        class="reveal"
                         src="images/3D5.png"
                         alt="CAD and prototype work"
                     >
 
                     <img
+                        class="reveal"
+                        src="images/3D6.jpeg"
+                        alt="CAD and prototype work"
+                    >
+
+                    <img
+                        class="reveal"
+                        src="images/3D7.jpeg"
+                        alt="CAD and prototype work"
+                    >
+
+                    <img
+                        class="reveal"
                         src="images/3D8.png"
                         alt="CAD and prototype work"
                     >
 
                     <img
+                        class="reveal"
+                        src="images/3D9.jpeg"
+                        alt="CAD and prototype work"
+                    >
+
+                    <img
+                        class="reveal"
                         src="images/3D10.jpeg"
                         alt="CAD and prototype work"
                     >
@@ -658,11 +748,12 @@
         </section>
 
 
-        <!-- =========================
-             EDUCATION
-        ========================== -->
 
-        <section class="wrap education section">
+        <!-- =================================================
+             EDUCATION
+        ================================================== -->
+
+        <section class="wrap education section reveal">
 
             <div>
 
@@ -694,8 +785,6 @@
             </div>
 
 
-            <!-- Skills / Tools -->
-
             <div class="skills">
 
                 <span>SolidWorks</span>
@@ -714,35 +803,36 @@
         </section>
 
 
-        <!-- =========================
+
+        <!-- =================================================
              CONTACT
-        ========================== -->
+        ================================================== -->
 
         <section class="contact">
 
-            <div class="wrap">
+            <div class="wrap reveal">
 
                 <p class="eyebrow">
                     CONTACT
                 </p>
 
                 <h2>
-                    Get in touch
+                    Let's talk engineering.
                 </h2>
 
                 <p>
                     I'm always interested in discussing engineering
-                    opportunities, projects, and new ideas.
+                    opportunities, interesting projects, and new ideas.
                 </p>
 
 
                 <div class="actions">
 
                     <a
-                        class="btn"
+                        class="btn primary"
                         href="mailto:charliekley12@gmail.com"
                     >
-                        Email
+                        Email Me
                     </a>
 
                     <a
@@ -770,9 +860,10 @@
     </main>
 
 
-    <!-- =========================
+
+    <!-- =====================================================
          FOOTER
-    ========================== -->
+    ====================================================== -->
 
     <footer>
 
@@ -789,6 +880,83 @@
         </div>
 
     </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+
+         1. Reveals selected elements as you scroll.
+         2. Shrinks the navigation bar slightly after scrolling.
+    ====================================================== -->
+
+    <script>
+
+        /*
+         * SCROLL REVEAL
+         */
+
+        const revealElements = document.querySelectorAll(".reveal");
+
+
+        const revealObserver = new IntersectionObserver(
+
+            (entries) => {
+
+                entries.forEach((entry) => {
+
+                    if (entry.isIntersecting) {
+
+                        entry.target.classList.add("visible");
+
+                        /*
+                         * Stop watching once the element has appeared.
+                         * This means it only animates once.
+                         */
+
+                        revealObserver.unobserve(entry.target);
+
+                    }
+
+                });
+
+            },
+
+            {
+                threshold: 0.10
+            }
+
+        );
+
+
+        revealElements.forEach((element) => {
+            revealObserver.observe(element);
+        });
+
+
+
+        /*
+         * NAVIGATION SCROLL EFFECT
+         */
+
+        const nav = document.querySelector(".nav");
+
+
+        window.addEventListener("scroll", () => {
+
+            if (window.scrollY > 40) {
+
+                nav.classList.add("scrolled");
+
+            } else {
+
+                nav.classList.remove("scrolled");
+
+            }
+
+        });
+
+    </script>
 
 </body>
 
