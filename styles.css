@@ -1,7 +1,10 @@
 /* ==========================================================
    CHARLIE KLEY — PORTFOLIO
+   ========================================================== */
 
-   Main colors and fonts can be changed here.
+
+/* ==========================================================
+   VARIABLES
    ========================================================== */
 
 :root {
@@ -55,7 +58,6 @@ img {
 }
 
 
-
 /* ==========================================================
    NAVIGATION
    ========================================================== */
@@ -76,39 +78,45 @@ img {
 
     background: #172635;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+    transition:
+        height 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.nav.scrolled {
+    height: 62px;
+
+    box-shadow:
+        0 4px 18px rgba(0, 0, 0, 0.12);
 }
 
 
-/* Name in top-left */
+/* Name */
 
 .brand {
     color: white;
     text-decoration: none;
 
-    font-family: var(--sans);
     font-size: 17px;
     font-weight: 700;
     letter-spacing: -0.02em;
 }
-
 
 nav {
     display: flex;
     gap: 28px;
 }
 
-
 nav a {
     color: #c3ced7;
     text-decoration: none;
 
-    font-family: var(--sans);
     font-size: 13px;
     font-weight: 500;
 
     transition: color 0.2s ease;
 }
-
 
 nav a:hover {
     color: white;
@@ -117,11 +125,6 @@ nav a:hover {
 
 /* ==========================================================
    SMALL SECTION LABELS
-
-   Used for labels such as:
-   MECHANICAL ENGINEERING
-   SELECTED WORK
-   EXPERIENCE
    ========================================================== */
 
 .eyebrow,
@@ -157,9 +160,6 @@ nav a:hover {
     padding-bottom: 90px;
 }
 
-
-/* Main name */
-
 .hero h1 {
     margin: 8px 0 22px;
 
@@ -167,9 +167,6 @@ nav a:hover {
     line-height: 1;
     letter-spacing: -0.045em;
 }
-
-
-/* First paragraph under name */
 
 .lede {
     max-width: 680px;
@@ -182,9 +179,6 @@ nav a:hover {
     line-height: 1.55;
 }
 
-
-/* Longer "about me" paragraph */
-
 .hero-about {
     max-width: 680px;
 
@@ -196,12 +190,44 @@ nav a:hover {
 
 
 /* ==========================================================
+   PORTRAIT
+   ========================================================== */
+
+.portrait {
+    margin: 0;
+}
+
+.portrait img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+
+    object-fit: contain;
+
+    background: #eeeeeb;
+}
+
+.portrait figcaption {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 10px;
+
+    color: var(--muted);
+
+    font-family: var(--mono);
+    font-size: 9px;
+}
+
+
+/* ==========================================================
    BUTTONS
    ========================================================== */
 
 .actions {
     display: flex;
     flex-wrap: wrap;
+
     gap: 10px;
 
     margin-top: 30px;
@@ -246,37 +272,9 @@ nav a:hover {
     background: #29343e;
 }
 
-
-/* ==========================================================
-   PORTRAIT
-   ========================================================== */
-
-.portrait {
-    margin: 0;
-}
-
-.portrait img {
-    width: 100%;
-    max-height: 500px;
-
-    object-fit: contain;
-
-    background: #eeeeeb;
-}
-
-
-/* Optional caption if you decide to keep one */
-
-.portrait figcaption {
-    display: flex;
-    justify-content: space-between;
-
-    margin-top: 10px;
-
-    color: var(--muted);
-
-    font-family: var(--mono);
-    font-size: 9px;
+.btn.light {
+    border-color: var(--line);
+    color: var(--ink);
 }
 
 
@@ -311,57 +309,42 @@ nav a:hover {
 
 
 /* ==========================================================
-   FEATURED PUMP PROJECT
+   PROJECTS — SHARED FEATURE LAYOUT
    ========================================================== */
 
 .feature {
     display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
+    grid-template-columns: 1fr 1fr;
 
-    margin-bottom: 28px;
+    align-items: stretch;
+
+    margin-bottom: 32px;
 
     overflow: hidden;
 
     background: var(--white);
     border: 1px solid var(--line);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
 }
 
-
-/* Pump image area */
-
-.feature-media {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    gap: 1px;
-
-    background: var(--line);
+.feature + .feature {
+    margin-top: 32px;
 }
 
+.feature:hover {
+    transform: translateY(-3px);
 
-/*
-   IMPORTANT:
-   contain = show the entire engineering image.
-   This prevents parts / CAD / assemblies from being cut off.
-*/
-
-.feature-media img {
-    width: 100%;
-    height: 100%;
-    min-height: 440px;
-
-    padding: 14px;
-
-    object-fit: contain;
-
-    background: #f2f2ef;
+    box-shadow:
+        0 14px 35px rgba(16, 24, 32, 0.07);
 }
-
-
-/* Pump text */
 
 .feature-copy {
     padding: 44px;
+
+    align-self: center;
 }
 
 .feature h3,
@@ -376,6 +359,113 @@ nav a:hover {
 
 .feature-copy > p {
     color: #46515a;
+}
+
+
+/* ==========================================================
+   PUMP PROJECT
+
+   The old portfolio stacked these two photos vertically.
+   Images retain their natural aspect ratios.
+   ========================================================== */
+
+.feature-media {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1px;
+
+    justify-content: center;
+
+    background: var(--line);
+}
+
+.feature-media img {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+
+    padding: 10px;
+
+    object-fit: contain;
+
+    background: #f2f2ef;
+}
+
+
+/* ==========================================================
+   OTHER PROJECT IMAGE AREAS
+
+   No fixed project height.
+
+   Technical images retain their natural aspect ratios instead
+   of being stretched or cropped to match arbitrary frames.
+   ========================================================== */
+
+.project-feature {
+    min-height: 0;
+}
+
+.project-image-grid {
+    display: grid;
+
+    width: 100%;
+
+    gap: 10px;
+    padding: 10px;
+
+    align-content: center;
+
+    background: #f1f1ee;
+}
+
+.project-image-grid img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    min-width: 0;
+    min-height: 0;
+
+    object-fit: contain;
+
+    background: transparent;
+}
+
+
+/* ==========================================================
+   WILDFIRE
+
+   Four images in the original 2 x 2 arrangement.
+   ========================================================== */
+
+.wildfire-images {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+
+/* ==========================================================
+   SPACE MAZE
+
+   Two images beside each other, matching the original site.
+   ========================================================== */
+
+.space-images {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    align-items: center;
+}
+
+
+/* ==========================================================
+   SEEING SOUNDS
+
+   Two images stacked vertically.
+   ========================================================== */
+
+.seeing-sounds-images {
+    grid-template-columns: 1fr;
 }
 
 
@@ -409,9 +499,7 @@ nav a:hover {
 
 
 /* ==========================================================
-   PROJECT-SPECIFIC METRICS
-
-   These stay because they provide context INSIDE the project.
+   PROJECT METRICS
    ========================================================== */
 
 .project-metrics {
@@ -448,7 +536,9 @@ nav a:hover {
 }
 
 
-/* Technical report link */
+/* ==========================================================
+   PROJECT LINKS
+   ========================================================== */
 
 .text-link {
     color: var(--blue);
@@ -465,7 +555,9 @@ nav a:hover {
 
 
 /* ==========================================================
-   PROJECT CARDS
+   LEGACY / OPTIONAL PROJECT CARDS
+
+   These can remain in case you add smaller project cards later.
    ========================================================== */
 
 .cards {
@@ -480,19 +572,25 @@ nav a:hover {
 
     background: var(--white);
     border: 1px solid var(--line);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
 }
 
+.card:hover {
+    transform: translateY(-4px);
 
-/*
-   Individual project images.
+    border-color: #bfc3c5;
 
-   No fixed 250px crop anymore.
-*/
+    box-shadow:
+        0 12px 30px rgba(16, 24, 32, 0.08);
+}
 
 .card-hero {
     width: calc(100% + 44px);
-
-    height: 260px;
+    height: auto;
 
     margin:
         -22px
@@ -505,9 +603,6 @@ nav a:hover {
 
     background: #f1f1ee;
 }
-
-
-/* Two-image wildfire area */
 
 .card-images,
 .card-img {
@@ -529,7 +624,7 @@ nav a:hover {
 .card-images img,
 .card-img img {
     width: 100%;
-    height: 250px;
+    height: auto;
 
     padding: 8px;
 
@@ -545,9 +640,6 @@ nav a:hover {
 .card > p {
     color: var(--muted);
 }
-
-
-/* If you keep a large statistic inside a card */
 
 .big-stat {
     margin-top: 22px;
@@ -567,8 +659,6 @@ nav a:hover {
 
 /* ==========================================================
    EXPERIENCE
-
-   Keeping a darker section, but making it less dramatic.
    ========================================================== */
 
 .dark {
@@ -617,10 +707,50 @@ nav a:hover {
 }
 
 
-/* Internship / experience photo */
+/* ==========================================================
+   EXPERIENCE HEADING / COMPANY LOGOS
+   ========================================================== */
 
-.timeline img {
+.experience-heading {
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 30px;
+}
+
+.company-logo {
+    width: auto !important;
+    height: auto !important;
+
+    max-width: 170px;
+    max-height: 60px;
+
+    margin: 0 0 18px !important;
+    padding: 0 !important;
+
+    object-fit: contain !important;
+
+    background: transparent !important;
+}
+
+.ford-logo {
+    padding: 10px 14px !important;
+
+    background: white !important;
+
+    border-radius: 3px;
+}
+
+
+/* ==========================================================
+   EXPERIENCE PHOTO
+   ========================================================== */
+
+.timeline img.experience-photo {
     width: 100%;
+    height: auto;
     max-height: 500px;
 
     margin-top: 24px;
@@ -634,27 +764,74 @@ nav a:hover {
 
 /* ==========================================================
    NECKOG MINI GALLERY
+
+   Natural aspect ratios, three images across.
    ========================================================== */
 
 .mini-gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 
-    gap: 8px;
+    gap: 10px;
 
     margin-top: 25px;
 }
 
 .mini-gallery img {
     width: 100%;
-    height: 200px;
+    height: auto;
 
     margin: 0;
+    padding: 0;
+
+    object-fit: contain;
+
+    background: transparent;
+}
+
+
+/* ==========================================================
+   IMAGE CAPTIONS
+   ========================================================== */
+
+.image-caption {
+    margin-top: 8px;
+
+    color: var(--light-muted) !important;
+
+    font-family: var(--mono);
+    font-size: 9px;
+    line-height: 1.5;
+
+    text-align: center;
+}
+
+
+/* ==========================================================
+   ADDITIONAL PROJECT PHOTOS
+
+   Kept available if you add detail galleries later.
+   ========================================================== */
+
+.project-detail-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 10px;
+
+    margin-top: 28px;
+}
+
+.project-detail-gallery img {
+    width: 100%;
+    height: auto;
+
     padding: 8px;
 
     object-fit: contain;
 
-    background: #182129;
+    background: white;
+    border: 1px solid var(--line);
 }
 
 
@@ -683,57 +860,78 @@ nav a:hover {
 }
 
 
-/* Aerospace photos */
+/* ==========================================================
+   AEROSPACE GALLERY
+
+   Three natural images across, matching the old portfolio.
+   ========================================================== */
 
 .aero-gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 
-    gap: 12px;
+    gap: 10px;
 
     margin-top: 45px;
+
+    align-items: center;
 }
 
 .aero-gallery img {
     width: 100%;
-    height: 300px;
+    height: auto;
 
-    padding: 8px;
+    padding: 0;
 
     object-fit: contain;
 
-    background: var(--white);
-    border: 1px solid var(--line);
+    background: transparent;
+    border: none;
 }
 
 
 /* ==========================================================
    CAD + PROTOTYPING GALLERY
+
+   Simple 3-column image wall like the original portfolio.
    ========================================================== */
 
 .gallery-section {
     padding: 95px 0;
 
-    background: #ededE9;
+    background: #edede9;
 }
 
 .build-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 
-    gap: 12px;
+    gap: 10px;
+}
+
+.build-item {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 0;
+
+    background: var(--white);
 }
 
 .build-grid img {
-    width: 100%;
-    height: 320px;
+    display: block;
 
-    padding: 14px;
+    width: 100%;
+    height: auto;
+
+    padding: 0;
 
     object-fit: contain;
 
-    background: var(--white);
-    border: 1px solid var(--line);
+    background: transparent;
+    border: none;
 }
 
 
@@ -746,6 +944,7 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
 
     gap: 80px;
+
     align-items: center;
 }
 
@@ -755,6 +954,24 @@ nav a:hover {
 
 .muted {
     color: var(--muted) !important;
+}
+
+.education-label {
+    margin-bottom: 8px;
+
+    color: var(--ink) !important;
+
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.coursework {
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .skills {
@@ -767,8 +984,6 @@ nav a:hover {
 
 /* ==========================================================
    CONTACT
-
-   Much calmer than the previous bright-blue block.
    ========================================================== */
 
 .contact {
@@ -790,14 +1005,6 @@ nav a:hover {
 }
 
 
-/* If old HTML still contains .btn.light */
-
-.btn.light {
-    border-color: var(--line);
-    color: var(--ink);
-}
-
-
 /* ==========================================================
    FOOTER
    ========================================================== */
@@ -814,9 +1021,31 @@ footer {
 
 footer .wrap {
     display: flex;
+
     justify-content: space-between;
 
     gap: 20px;
+}
+
+
+/* ==========================================================
+   SCROLL REVEAL
+   ========================================================== */
+
+.reveal {
+    opacity: 0;
+
+    transform: translateY(24px);
+
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+
+    transform: translateY(0);
 }
 
 
@@ -831,7 +1060,7 @@ footer .wrap {
     }
 
 
-    /* Keep only résumé visible in nav on small screens */
+    /* Navigation */
 
     nav a:not(:last-child) {
         display: none;
@@ -864,27 +1093,27 @@ footer .wrap {
     }
 
 
-    /* Featured project */
+    /* Projects */
 
     .feature {
         grid-template-columns: 1fr;
-    }
-
-    .feature-media {
-        min-height: 0;
-    }
-
-    .feature-media img {
-        height: 350px;
-        min-height: 0;
     }
 
     .feature-copy {
         padding: 28px;
     }
 
+    .feature-media img {
+        height: auto;
+        min-height: 0;
+    }
 
-    /* Project cards */
+    .project-image-grid {
+        min-height: 0;
+    }
+
+
+    /* Cards */
 
     .cards {
         grid-template-columns: 1fr;
@@ -899,8 +1128,12 @@ footer .wrap {
         gap: 8px;
     }
 
+    .experience-heading {
+        gap: 20px;
+    }
 
-    /* Other two-column sections */
+
+    /* Two-column sections */
 
     .two-col,
     .education {
@@ -910,16 +1143,25 @@ footer .wrap {
     }
 
 
-    /* Galleries */
+    /* Neckog */
+
+    .mini-gallery {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+
+    /* Aerospace + CAD */
 
     .aero-gallery,
     .build-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .aero-gallery img,
-    .build-grid img {
-        height: 240px;
+
+    /* Extra galleries */
+
+    .project-detail-gallery {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
@@ -935,6 +1177,13 @@ footer .wrap {
         height: 64px;
     }
 
+    .nav.scrolled {
+        height: 58px;
+    }
+
+
+    /* Hero */
+
     .hero h1 {
         font-size: 46px;
     }
@@ -944,20 +1193,45 @@ footer .wrap {
     }
 
 
-    /* Stack the two pump images.
-       IMPORTANT: we no longer hide the second photo. */
+    /* Project text */
+
+    .feature-copy {
+        padding: 24px 20px;
+    }
+
+
+    /* Pump */
 
     .feature-media {
+        flex-direction: column;
+    }
+
+
+    /* Wildfire stays 2 x 2 */
+
+    .wildfire-images {
+        grid-template-columns: 1fr 1fr;
+
+        gap: 6px;
+        padding: 6px;
+    }
+
+
+    /* Space Maze stacks on narrow screens */
+
+    .space-images {
         grid-template-columns: 1fr;
     }
 
-    .feature-media img {
-        height: auto;
-        max-height: 400px;
+
+    /* Seeing Sounds remains stacked */
+
+    .seeing-sounds-images {
+        grid-template-columns: 1fr;
     }
 
 
-    /* Project metrics */
+    /* Metrics */
 
     .project-metrics {
         grid-template-columns: 1fr;
@@ -966,37 +1240,42 @@ footer .wrap {
     }
 
 
-    /* Galleries */
+    /* Experience */
 
-    .aero-gallery,
-    .build-grid {
-        grid-template-columns: 1fr;
+    .experience-heading {
+        flex-direction: column;
     }
 
-    .aero-gallery img,
-    .build-grid img {
-        height: auto;
-        max-height: 400px;
+    .company-logo {
+        max-width: 140px;
     }
 
 
-    /* Neckog gallery */
+    /* Neckog */
 
     .mini-gallery {
         grid-template-columns: 1fr;
     }
 
-    .mini-gallery img {
-        height: auto;
-        max-height: 350px;
+
+    /* Aerospace */
+
+    .aero-gallery {
+        grid-template-columns: 1fr;
     }
 
 
-    /* Wildfire images */
+    /* CAD gallery */
 
-    .card-images img,
-    .card-img img {
-        height: 210px;
+    .build-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Extra project galleries */
+
+    .project-detail-gallery {
+        grid-template-columns: 1fr;
     }
 
 
@@ -1006,74 +1285,12 @@ footer .wrap {
         flex-direction: column;
     }
 
+}
 
-   /* ==========================================================
-   MOTION
+
+/* ==========================================================
+   REDUCED MOTION ACCESSIBILITY
    ========================================================== */
-
-
-/* Elements start slightly lower and transparent */
-
-.reveal {
-    opacity: 0;
-    transform: translateY(24px);
-
-    transition:
-        opacity 0.7s ease,
-        transform 0.7s ease;
-}
-
-
-/* JavaScript adds this class when the element enters the screen */
-
-.reveal.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-
-/* Slight hover movement for project cards */
-
-.card {
-    transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease,
-        border-color 0.25s ease;
-}
-
-
-.card:hover {
-    transform: translateY(-4px);
-
-    border-color: #bfc3c5;
-
-    box-shadow:
-        0 12px 30px rgba(16, 24, 32, 0.08);
-}
-
-
-/* Same idea for the large pump project */
-
-.feature {
-    transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease;
-}
-
-
-.feature:hover {
-    transform: translateY(-3px);
-
-    box-shadow:
-        0 14px 35px rgba(16, 24, 32, 0.07);
-}
-
-
-/*
-   Accessibility:
-   if someone's computer is configured to reduce motion,
-   don't animate things.
-*/
 
 @media (prefers-reduced-motion: reduce) {
 
@@ -1083,300 +1300,21 @@ footer .wrap {
 
     .reveal {
         opacity: 1;
+
         transform: none;
+
         transition: none;
     }
 
     .card,
-    .feature {
+    .feature,
+    .nav {
         transition: none;
     }
 
     .card:hover,
     .feature:hover {
         transform: none;
-    }
-
-}
-
-}
-
-
-
-/* ==========================================================
-   COMPANY LOGOS
-   ========================================================== */
-
-.company-logo {
-    width: auto !important;
-    height: auto !important;
-
-    max-width: 170px;
-    max-height: 60px;
-
-    margin: 0 0 18px !important;
-    padding: 0 !important;
-
-    object-fit: contain !important;
-
-    background: transparent !important;
-}
-
-
-/* Ford logo needs a light surface in the dark section */
-
-.ford-logo {
-    padding: 10px 14px !important;
-
-    background: white !important;
-    border-radius: 3px;
-}
-
-
-/* ==========================================================
-   ADDITIONAL PROJECT PHOTOS
-   ========================================================== */
-
-.project-detail-gallery {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-
-    gap: 10px;
-
-    margin-top: 28px;
-}
-
-.project-detail-gallery img {
-    width: 100%;
-    height: 190px;
-
-    padding: 8px;
-
-    object-fit: contain;
-
-    background: white;
-    border: 1px solid var(--line);
-}
-
-
-/* Five Neckog images wrap more naturally */
-
-.mini-gallery {
-    grid-template-columns: repeat(3, 1fr);
-}
-
-
-/* ==========================================================
-   MOBILE
-   ========================================================== */
-
-@media (max-width: 800px) {
-
-    .project-detail-gallery {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .project-detail-gallery img {
-        height: 220px;
-    }
-
-}
-
-
-@media (max-width: 480px) {
-
-    .project-detail-gallery {
-        grid-template-columns: 1fr;
-    }
-
-    .project-detail-gallery img {
-        height: auto;
-        max-height: 400px;
-    }
-
-}
-
-
-/* ==========================================================
-   PROJECT CARDS
-
-   Pump + Wildfire + Space Maze + Seeing Sounds now all use
-   the same framed visual style.
-   ========================================================== */
-
-.project-feature {
-    min-height: 430px;
-}
-
-
-/* ==========================================================
-   PROJECT IMAGE AREA
-
-   Gives every project a controlled image frame instead of
-   allowing images to determine the height of the project.
-   ========================================================== */
-
-.project-image-grid {
-    display: grid;
-
-    width: 100%;
-    height: 100%;
-    min-height: 430px;
-
-    gap: 1px;
-
-    overflow: hidden;
-
-    background: var(--line);
-}
-
-
-/*
-   Images are contained rather than cropped.
-
-   This is especially useful for CAD, diagrams, screenshots,
-   prototypes, and engineering documentation.
-*/
-
-.project-image-grid img {
-    width: 100%;
-    height: 100%;
-    min-width: 0;
-    min-height: 0;
-
-    padding: 10px;
-
-    object-fit: contain;
-
-    background: #f1f1ee;
-}
-
-
-/* ==========================================================
-   WILDFIRE
-
-   Four images arranged as a compact 2 x 2 grid.
-   ========================================================== */
-
-.wildfire-images {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
-
-.wildfire-images img {
-    height: 215px;
-}
-
-
-/* ==========================================================
-   SPACE MAZE
-
-   Two images side-by-side.
-   ========================================================== */
-
-.space-images {
-    grid-template-columns: 1fr 1fr;
-}
-
-
-.space-images img {
-    height: 430px;
-}
-
-
-/* ==========================================================
-   SEEING SOUNDS
-
-   Two images stacked vertically because these images work
-   better at a wider aspect ratio.
-   ========================================================== */
-
-.seeing-sounds-images {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
-
-.seeing-sounds-images img {
-    height: 215px;
-}
-
-
-/* ==========================================================
-   PROJECT SPACING
-
-   Separates each framed project cleanly.
-   ========================================================== */
-
-.feature + .feature {
-    margin-top: 24px;
-}
-
-
-/* ==========================================================
-   MOBILE
-   ========================================================== */
-
-@media (max-width: 800px) {
-
-    .project-feature {
-        min-height: 0;
-    }
-
-
-    .project-image-grid {
-        min-height: 0;
-    }
-
-
-    /* Wildfire remains 2 x 2 */
-
-    .wildfire-images img {
-        height: 190px;
-    }
-
-
-    /* Space Maze */
-
-    .space-images img {
-        height: 320px;
-    }
-
-
-    /* Seeing Sounds */
-
-    .seeing-sounds-images img {
-        height: 240px;
-    }
-
-}
-
-
-@media (max-width: 480px) {
-
-    /*
-       On very small phones, putting two engineering images
-       beside each other makes them too difficult to see.
-    */
-
-    .space-images {
-        grid-template-columns: 1fr;
-    }
-
-
-    .space-images img {
-        height: 280px;
-    }
-
-
-    .wildfire-images img {
-        height: 160px;
-    }
-
-
-    .seeing-sounds-images img {
-        height: 210px;
     }
 
 }
