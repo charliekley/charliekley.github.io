@@ -24,6 +24,51 @@
 </head>
 
 
+    <script>
+
+    /*
+     * Subtle scroll animation
+     *
+     * Any HTML element with class="reveal"
+     * will fade upward when it enters the screen.
+     */
+
+    const revealElements = document.querySelectorAll(".reveal");
+
+    const revealObserver = new IntersectionObserver(
+        (entries) => {
+
+            entries.forEach((entry) => {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add("visible");
+
+                    /*
+                     * Stop watching after it has appeared.
+                     * This prevents sections from constantly
+                     * disappearing/reappearing while scrolling.
+                     */
+
+                    revealObserver.unobserve(entry.target);
+
+                }
+
+            });
+
+        },
+        {
+            threshold: 0.12
+        }
+    );
+
+
+    revealElements.forEach((element) => {
+        revealObserver.observe(element);
+    });
+
+</script>
+
 <body>
 
     <!-- =========================
