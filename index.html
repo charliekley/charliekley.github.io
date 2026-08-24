@@ -50,7 +50,7 @@
 
 
         <!-- =================================================
-             ABOUT / HERO
+             ABOUT
         ================================================== -->
 
         <section class="hero wrap">
@@ -115,7 +115,7 @@
 
 
         <!-- =================================================
-             ENGINEERING PROJECTS
+             PROJECTS
         ================================================== -->
 
         <section id="projects" class="wrap section">
@@ -140,12 +140,12 @@
 
 
             <!-- =============================================
-                 PUMP PROJECT
+                 PUMP SUPPORT PROJECT
             ============================================== -->
 
             <article class="feature reveal">
 
-                <div class="feature-media">
+                <div class="feature-media pump-images">
 
                     <img
                         src="images/all_parts.jpeg"
@@ -154,7 +154,7 @@
 
                     <img
                         src="images/assem_mounted.jpeg"
-                        alt="Completed centrifugal pump support structure"
+                        alt="Assembled centrifugal pump support"
                     >
 
                 </div>
@@ -174,11 +174,17 @@
                     </div>
 
                     <p>
-                        Designed, analyzed, and fabricated a support structure
-                        for a belt-driven centrifugal pump. I used analytical
-                        stress and deflection calculations alongside FEA to
-                        evaluate the design before fabrication and physical
-                        load testing.
+                        Designed, analyzed, and fabricated a structural support
+                        frame for a belt-driven centrifugal pump. Symbolic
+                        stress and deflection analysis, material selection,
+                        and FEA guided the design before physical testing.
+                    </p>
+
+                    <p>
+                        Testing also highlighted the effects of pin-joint
+                        compliance and the differences between idealized
+                        analytical models, FEA, and real-world structural
+                        behavior.
                     </p>
 
                     <div class="project-metrics">
@@ -205,7 +211,7 @@
                         href="pump_report.pdf"
                         target="_blank"
                     >
-                        Technical report →
+                        Read the full project report →
                     </a>
 
                 </div>
@@ -215,150 +221,185 @@
 
 
             <!-- =============================================
-                 ADDITIONAL PROJECTS
+                 WILDFIRE BURN SEVERITY PREDICTOR
             ============================================== -->
 
-            <div class="cards">
+            <article class="project-row reveal">
 
+                <div class="project-copy">
 
-                <!-- Wildfire -->
-
-                <article class="card reveal">
-
-                    <div class="card-images">
-
-                        <img
-                            src="images/Fire1.png"
-                            alt="Satellite wildfire imagery"
-                        >
-
-                        <img
-                            src="images/Fire3.png"
-                            alt="Wildfire burn severity classification"
-                        >
-
-                    </div>
+                    <p class="eyebrow">
+                        MACHINE LEARNING · GEOSPATIAL DATA
+                    </p>
 
                     <h3>
                         Wildfire Burn Severity Predictor
                     </h3>
 
                     <p>
-                        Built a Random Forest classifier in Python using
-                        Landsat 8 imagery, SRTM elevation data, and existing
-                        burn-severity datasets. The resulting model achieved
-                        approximately 70% classification accuracy.
+                        I applied machine learning techniques using a Random
+                        Forest classifier in Python to predict wildfire burn
+                        severity based on Landsat 8 imagery, SRTM elevation
+                        data, and existing burn-severity data.
+                    </p>
+
+                    <p>
+                        The model achieved approximately 70% classification
+                        accuracy, demonstrating the potential for data-driven
+                        wildfire management strategies.
                     </p>
 
                     <div class="tags">
                         <span>Python</span>
-                        <span>Machine Learning</span>
+                        <span>Random Forest</span>
+                        <span>Landsat 8</span>
                         <span>Geospatial Data</span>
                     </div>
 
-                </article>
+                </div>
 
 
+                <!--
+                    Keep these as a 2 x 2 grid.
+                    These are all four images from the original site.
+                -->
 
-                <!-- Space Maze -->
-
-                <article class="card reveal">
+                <div class="wildfire-grid">
 
                     <img
-                        class="card-hero"
-                        src="images/Space1.jpg"
-                        alt="Space Maze toy prototype"
+                        src="images/Fire1.png"
+                        alt="Wildfire burn severity project image 1"
                     >
 
+                    <img
+                        src="images/Fire2.png"
+                        alt="Wildfire burn severity project image 2"
+                    >
+
+                    <img
+                        src="images/Fire3.png"
+                        alt="Wildfire burn severity project image 3"
+                    >
+
+                    <img
+                        src="images/Fire4.png"
+                        alt="Wildfire burn severity project image 4"
+                    >
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =============================================
+                 SPACE MAZE
+            ============================================== -->
+
+            <article class="project-row reverse reveal">
+
+                <div class="project-images two-images">
+
+                    <img
+                        src="images/Space1.jpg"
+                        alt="Space Maze children's toy"
+                    >
+
+                    <img
+                        src="images/Space3.jpeg"
+                        alt="Space Maze functional prototype"
+                    >
+
+                </div>
+
+
+                <div class="project-copy">
+
+                    <p class="eyebrow">
+                        PRODUCT DESIGN · DFM
+                    </p>
+
                     <h3>
-                        Space Maze Toy
+                        Space Maze Children's Toy
                     </h3>
 
                     <p>
-                        Designed a children's maze toy in SolidWorks and built
-                        a functional prototype. Components were developed with
-                        injection molding, assembly, and manufacturing cost in
-                        mind.
+                        Created a space-themed children's toy in SolidWorks
+                        and 3D printed a functional prototype for presentation.
+                    </p>
+
+                    <p>
+                        Components were designed around injection-molding
+                        constraints, and manufacturing costs were calculated
+                        to keep the design within budget.
                     </p>
 
                     <div class="tags">
                         <span>SolidWorks</span>
                         <span>DFM</span>
+                        <span>Injection Molding</span>
                         <span>3D Printing</span>
                     </div>
 
-                </article>
+                </div>
+
+            </article>
 
 
 
-                <!-- Seeing Sounds -->
+            <!-- =============================================
+                 SEEING SOUNDS
+            ============================================== -->
 
-                <article class="card reveal">
+            <article class="project-row reveal">
 
-                    <img
-                        class="card-hero"
-                        src="images/SS1.jpeg"
-                        alt="Seeing Sounds engineering project"
-                    >
+                <div class="project-copy">
+
+                    <p class="eyebrow">
+                        MECHATRONICS · SYSTEM INTEGRATION
+                    </p>
 
                     <h3>
                         Seeing Sounds
                     </h3>
 
                     <p>
-                        Collaborated on an interactive system that translates
-                        sound into visual feedback for children at the Shakori
-                        Hills Music Festival. Worked on prototyping, system
-                        integration, testing, and the final client showcase.
+                        Collaborated with a team to create an interactive
+                        system that visualizes sound for children attending
+                        the Shakori Hills Music Festival.
+                    </p>
+
+                    <p>
+                        We combined multiple inputs to create engaging visual
+                        feedback, presented the design to our client and at a
+                        showcase, and received positive responses from users.
                     </p>
 
                     <div class="tags">
                         <span>Mechatronics</span>
                         <span>System Integration</span>
                         <span>Prototyping</span>
+                        <span>User Testing</span>
                     </div>
 
-                </article>
-
-            </div>
+                </div>
 
 
+                <div class="project-images stacked-images">
 
-            <!-- =============================================
-                 PROJECT DETAIL GALLERY
+                    <img
+                        src="images/SS1.jpeg"
+                        alt="Seeing Sounds engineering design project"
+                    >
 
-                 These bring back some of the photos that were
-                 removed when the site was simplified.
-            ============================================== -->
+                    <img
+                        src="images/SS2.jpeg"
+                        alt="Seeing Sounds project prototype"
+                    >
 
-            <div class="project-detail-gallery reveal">
+                </div>
 
-                <img
-                    src="images/Fire2.png"
-                    alt="Wildfire project analysis"
-                >
-
-                <img
-                    src="images/Fire4.png"
-                    alt="Wildfire burn severity project output"
-                >
-
-                <img
-                    src="images/Space2.jpeg"
-                    alt="Space Maze design and prototype"
-                >
-
-                <img
-                    src="images/Space3.jpeg"
-                    alt="Space Maze prototype detail"
-                >
-
-                <img
-                    src="images/SS2.jpeg"
-                    alt="Seeing Sounds project detail"
-                >
-
-            </div>
+            </article>
 
         </section>
 
@@ -399,38 +440,54 @@
                         </div>
 
 
-                        <div>
+                        <div class="experience-content">
 
-                            <img
-                                class="company-logo"
-                                src="images/xbow_logo.png"
-                                alt="X-Bow Systems logo"
-                            >
+                            <div class="experience-heading">
 
-                            <p class="company">
-                                X-BOW SYSTEMS
-                            </p>
+                                <div>
 
-                            <h3>
-                                Manufacturing Engineering Intern
-                            </h3>
+                                    <p class="company">
+                                        X-BOW SYSTEMS
+                                    </p>
+
+                                    <h3>
+                                        Manufacturing Engineering Intern
+                                    </h3>
+
+                                    <p class="experience-date">
+                                        Summer 2026
+                                    </p>
+
+                                </div>
+
+
+                                <img
+                                    class="company-logo xbow-logo"
+                                    src="images/xbow_logo.png"
+                                    alt="X-Bow Systems logo"
+                                >
+
+                            </div>
+
 
                             <p>
-                                Developed a manufacturing execution system
-                                for production and building-occupancy tracking,
-                                including an integrated andon light system.
+                                At X-Bow Systems, I worked on manufacturing
+                                engineering projects focused on improving
+                                production efficiency as the company scales.
                             </p>
 
                             <p>
-                                Automated material request workflows using
-                                Python and Excel VBA, reducing a process that
-                                took approximately eight minutes to under one
-                                minute.
+                                I developed a manufacturing execution system
+                                to track production and building occupancy
+                                with an integrated andon light system, and
+                                automated material requests using Python and
+                                Excel VBA, reducing a roughly eight-minute
+                                process to under one minute.
                             </p>
 
                             <p>
-                                Improvements across projects were projected to
-                                save approximately
+                                Across several projects, I implemented
+                                improvements projected to save approximately
                                 <strong>
                                     368 labor hours annually — equivalent to
                                     46 eight-hour working days
@@ -439,10 +496,11 @@
                                 production stoppages.
                             </p>
 
+
                             <img
-                                class="people-photo"
+                                class="experience-photo"
                                 src="images/xbow_intern_photo.jpg"
-                                alt="X-Bow Systems internship"
+                                alt="Charlie Kley during his X-Bow Systems internship"
                             >
 
                         </div>
@@ -462,36 +520,52 @@
                         </div>
 
 
-                        <div>
+                        <div class="experience-content">
 
-                            <!-- Ford AV logo restored -->
+                            <div class="experience-heading">
 
-                            <img
-                                class="company-logo ford-logo"
-                                src="images/Ford-AV-Logo.png"
-                                alt="Ford Audio-Video logo"
-                            >
+                                <div>
 
-                            <p class="company">
-                                FORD AUDIO-VIDEO
-                            </p>
+                                    <p class="company">
+                                        FORD AUDIO-VIDEO
+                                    </p>
 
-                            <h3>
-                                Project Engineering Intern
-                            </h3>
+                                    <h3>
+                                        Project Engineer Intern
+                                    </h3>
+
+                                    <p class="experience-date">
+                                        Summer 2025
+                                    </p>
+
+                                </div>
+
+
+                                <div class="logo-light">
+
+                                    <img
+                                        class="company-logo ford-logo"
+                                        src="images/Ford-AV-Logo.png"
+                                        alt="Ford Audio-Video logo"
+                                    >
+
+                                </div>
+
+                            </div>
+
 
                             <p>
-                                Installed, integrated, commissioned, and
-                                troubleshot professional audio-visual systems
-                                across large facilities, including the
-                                University of Texas football stadium.
+                                At Ford AV, I installed and integrated
+                                large-scale AV systems for multi-million-dollar
+                                facilities.
                             </p>
 
                             <p>
-                                Worked alongside engineers, contractors, and
-                                technicians to commission complex systems and
-                                resolve hardware and integration issues in the
-                                field.
+                                I assisted in commissioning and troubleshooting
+                                professional AV hardware at large venues,
+                                including the University of Texas football
+                                stadium, and collaborated closely with engineers
+                                and contractors during deployment.
                             </p>
 
                         </div>
@@ -511,7 +585,7 @@
                         </div>
 
 
-                        <div>
+                        <div class="experience-content">
 
                             <p class="company">
                                 NECKOG INDUSTRIES
@@ -521,21 +595,33 @@
                                 Mechanical Engineering Intern
                             </h3>
 
-                            <p>
-                                Designed and prototyped more than 10 components
-                                for desktop injection-molding equipment,
-                                including gear pumps, valves, sheet-metal
-                                housings, and stepper-motor assemblies.
+                            <p class="experience-date">
+                                Summer 2024
                             </p>
 
                             <p>
-                                Produced engineering drawings supporting a
-                                provisional patent for a three-inlet
-                                manifold-gear pump.
+                                Designed and prototyped more than ten
+                                components of a desktop injection-molding
+                                device, including gear pumps, valves,
+                                sheet-metal housings, and stepper-motor
+                                assemblies using Fusion 360.
+                            </p>
+
+                            <p>
+                                I maintained tight tolerances for critical
+                                components such as motor shafts and pump gears,
+                                produced technical drawings for a provisional
+                                patent covering a three-inlet manifold-gear
+                                pump, and sourced materials from local
+                                manufacturers for late-stage prototyping and
+                                testing.
                             </p>
 
 
-                            <!-- More Neckog work restored -->
+                            <!--
+                                Exactly the three Neckog images used
+                                on the original Markdown site.
+                            -->
 
                             <div class="mini-gallery">
 
@@ -550,21 +636,16 @@
                                 >
 
                                 <img
-                                    src="images/Neckog3.png"
-                                    alt="Neckog engineering design"
-                                >
-
-                                <img
-                                    src="images/Neckog4.png"
-                                    alt="Neckog CAD work"
-                                >
-
-                                <img
                                     src="images/Neckog5.png"
                                     alt="Neckog CAD design"
                                 >
 
                             </div>
+
+                            <p class="image-caption">
+                                Prototypes and assemblies designed and
+                                fabricated during my internship at Neckog.
+                            </p>
 
                         </div>
 
@@ -579,7 +660,7 @@
 
 
         <!-- =================================================
-             ENGINEERING ACTIVITIES
+             EXTRACURRICULAR ACTIVITIES
         ================================================== -->
 
         <section class="wrap section">
@@ -620,13 +701,18 @@
                         <b>Duke Adaptive Explorers</b>
                         <br>
                         Help organize adaptive hiking, kayaking, and sports
-                        activities.
+                        activities for individuals with physical and
+                        intellectual disabilities.
                     </p>
 
                 </div>
 
             </div>
 
+
+            <!--
+                Exactly the three Aero images from the old site.
+            -->
 
             <div class="aero-gallery reveal">
 
@@ -647,6 +733,10 @@
 
             </div>
 
+            <p class="image-caption">
+                Rocket motor assembly and static hot-fire testing.
+            </p>
+
         </section>
 
 
@@ -654,7 +744,11 @@
         <!-- =================================================
              CAD + PROTOTYPING
 
-             All 10 original 3D/build images are included here.
+             IMPORTANT:
+             These are EXACTLY the 9 images used on the
+             original Markdown website.
+
+             There is intentionally no 3D6 image.
         ================================================== -->
 
         <section id="builds" class="gallery-section">
@@ -672,8 +766,8 @@
                     </h2>
 
                     <p>
-                        A mix of CAD, prototypes, fabricated parts, and
-                        other things I've designed or built along the way.
+                        Assorted CAD models, 3D prints, prototypes, and
+                        other cool things I've worked on.
                     </p>
 
                 </div>
@@ -681,65 +775,68 @@
 
                 <div class="build-grid">
 
-                    <img
-                        class="reveal"
-                        src="images/3D1.png"
-                        alt="CAD and prototype work"
-                    >
+                    <div class="build-item reveal">
+                        <img
+                            src="images/3D1.png"
+                            alt="CAD and 3D printing project"
+                        >
+                    </div>
 
-                    <img
-                        class="reveal"
-                        src="images/3D2.jpeg"
-                        alt="CAD and prototype work"
-                    >
+                    <div class="build-item reveal">
+                        <img
+                            src="images/3D2.jpeg"
+                            alt="CAD and 3D printing project"
+                        >
+                    </div>
 
-                    <img
-                        class="reveal"
-                        src="images/3D3.jpeg"
-                        alt="CAD and prototype work"
-                    >
+                    <div class="build-item reveal">
+                        <img
+                            src="images/3D3.jpeg"
+                            alt="CAD and 3D printing project"
+                        >
+                    </div>
 
-                    <img
-                        class="reveal"
-                        src="images/3D4.png"
-                        alt="CAD and prototype work"
-                    >
+                    <div class="build-item reveal">
+                        <img
+                            src="images/3D4.png"
+                            alt="CAD and 3D printing project"
+                        >
+                    </div>
 
-                    <img
-                        class="reveal"
-                        src="images/3D5.png"
-                        alt="CAD and prototype work"
-                    >
+                    <div class="build-item reveal">
+                        <img
+                            src="images/3D5.png"
+                            alt="CAD and 3D printing project"
+                        >
+                    </div>
 
-                    <img
-                        class="reveal"
-                        src="images/3D6.jpeg"
-                        alt="CAD and prototype work"
-                    >
+                    <div class="build-item reveal">
+                        <img
+                            src="images/3D7.jpeg"
+                            alt="CAD and 3D printing project"
+                        >
+                    </div>
 
-                    <img
-                        class="reveal"
-                        src="images/3D7.jpeg"
-                        alt="CAD and prototype work"
-                    >
+                    <div class="build-item reveal">
+                        <img
+                            src="images/3D8.png"
+                            alt="CAD and 3D printing project"
+                        >
+                    </div>
 
-                    <img
-                        class="reveal"
-                        src="images/3D8.png"
-                        alt="CAD and prototype work"
-                    >
+                    <div class="build-item reveal">
+                        <img
+                            src="images/3D9.jpeg"
+                            alt="CAD and 3D printing project"
+                        >
+                    </div>
 
-                    <img
-                        class="reveal"
-                        src="images/3D9.jpeg"
-                        alt="CAD and prototype work"
-                    >
-
-                    <img
-                        class="reveal"
-                        src="images/3D10.jpeg"
-                        alt="CAD and prototype work"
-                    >
+                    <div class="build-item reveal">
+                        <img
+                            src="images/3D10.jpeg"
+                            alt="CAD and 3D printing project"
+                        >
+                    </div>
 
                 </div>
 
@@ -766,7 +863,7 @@
                 </h2>
 
                 <p>
-                    Bachelor of Engineering, Mechanical Engineering
+                    Bachelor of Engineering in Mechanical Engineering
                     <br>
                     Minor in Mathematics
                     <br>
@@ -785,18 +882,41 @@
             </div>
 
 
-            <div class="skills">
+            <div>
 
-                <span>SolidWorks</span>
-                <span>Fusion 360</span>
-                <span>Onshape</span>
-                <span>FEA</span>
-                <span>Python</span>
-                <span>Arduino</span>
-                <span>Excel VBA</span>
-                <span>3D Printing</span>
-                <span>Prototyping</span>
-                <span>System Integration</span>
+                <p class="education-label">
+                    Relevant Coursework
+                </p>
+
+                <p class="coursework">
+                    Heat &amp; Mass Transfer · Fluid Dynamics ·
+                    Control &amp; Systems Engineering · Thermodynamics ·
+                    Mechanics of Materials · Statics &amp; Dynamics ·
+                    Mechatronics · Structures and Properties of Solids ·
+                    Differential &amp; Partial Equations ·
+                    Multivariable Calculus · Linear Algebra · Physics
+                </p>
+
+
+                <p class="education-label">
+                    Tools &amp; Skills
+                </p>
+
+                <div class="skills">
+
+                    <span>SolidWorks</span>
+                    <span>Fusion 360</span>
+                    <span>Onshape</span>
+                    <span>FEA</span>
+                    <span>Python</span>
+                    <span>Arduino</span>
+                    <span>Java</span>
+                    <span>Excel VBA</span>
+                    <span>3D Printing</span>
+                    <span>Prototyping</span>
+                    <span>System Integration</span>
+
+                </div>
 
             </div>
 
@@ -886,17 +1006,19 @@
     <!-- =====================================================
          JAVASCRIPT
 
-         1. Reveals selected elements as you scroll.
-         2. Shrinks the navigation bar slightly after scrolling.
+         Handles:
+         1. Subtle scroll reveal animations
+         2. Smaller navigation bar after scrolling
     ====================================================== -->
 
     <script>
 
-        /*
-         * SCROLL REVEAL
-         */
+        /* -----------------------------------------------------
+           SCROLL REVEAL
+        ----------------------------------------------------- */
 
-        const revealElements = document.querySelectorAll(".reveal");
+        const revealElements =
+            document.querySelectorAll(".reveal");
 
 
         const revealObserver = new IntersectionObserver(
@@ -909,12 +1031,9 @@
 
                         entry.target.classList.add("visible");
 
-                        /*
-                         * Stop watching once the element has appeared.
-                         * This means it only animates once.
-                         */
-
-                        revealObserver.unobserve(entry.target);
+                        revealObserver.unobserve(
+                            entry.target
+                        );
 
                     }
 
@@ -930,16 +1049,19 @@
 
 
         revealElements.forEach((element) => {
+
             revealObserver.observe(element);
+
         });
 
 
 
-        /*
-         * NAVIGATION SCROLL EFFECT
-         */
+        /* -----------------------------------------------------
+           NAVIGATION SCROLL EFFECT
+        ----------------------------------------------------- */
 
-        const nav = document.querySelector(".nav");
+        const nav =
+            document.querySelector(".nav");
 
 
         window.addEventListener("scroll", () => {
